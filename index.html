@@ -1,0 +1,2524 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tartarachin · Las famosas tartas de queso de Algeciras</title>
+<meta name="description" content="Tartarachin, la única tienda especializada en tarta de queso de Algeciras. Tartas artesanas, vasitos Caprichín, Tartarashakes y encargos. Calle Fray Bartolomé, frente al Juzgado.">
+<link rel="canonical" href="https://www.tartarachin.es/">
+
+<!-- ===== Open Graph / redes sociales ===== -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tartarachin">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://www.tartarachin.es/">
+<meta property="og:title" content="Tartarachin · Las famosas tartas de queso de Algeciras">
+<meta property="og:description" content="La única tienda especializada en tarta de queso de Algeciras. Más de 30 sabores artesanos, vasitos Caprichín, Tartarashakes y encargos con 24 h. Frente al Juzgado.">
+<meta property="og:image" content="https://www.tartarachin.es/img/og-tartarachin.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Porción de tarta de queso de Tartarachin sobre fondo lila con el lema Más vale tarta que nunca">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tartarachin · Las famosas tartas de queso de Algeciras">
+<meta name="twitter:description" content="Tartas de queso artesanas hechas cada día en nuestro obrador de Algeciras. Más de 30 sabores, encargos con 24 h y recogida en tienda.">
+<meta name="twitter:image" content="https://www.tartarachin.es/img/og-tartarachin.jpg">
+<meta name="theme-color" content="#2c1840">
+<meta name="geo.region" content="ES-CA">
+<meta name="geo.placename" content="Algeciras">
+<meta name="geo.position" content="36.13798045;-5.45263980">
+<meta name="ICBM" content="36.13798045, -5.45263980">
+
+<link rel="preload" as="font" type="font/woff2" href="fonts/outfit-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/fraunces-latin-700-normal.woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="preload" as="image" href="img/tarta-queso-artesana-hero.webp" fetchpriority="high">
+<style>
+:root{
+  --berenjena:#2c1840;
+  --berenjena-2:#3b2356;
+  --lila:#8a5fc4;
+  --lila-2:#a77fe0;
+  --lila-claro:#cdb2ef;
+  --lavanda:#f4eefb;
+  --lavanda-2:#ece2f8;
+  --crema:#fdf9f3;
+  --crema-2:#f8f0e4;
+  --biscuit:#d69f5a;
+  --biscuit-oscuro:#b57e3a;
+  --fresa:#e26a8b;
+  --tinta:#332044;
+  --tinta-suave:#6e5f80;
+  --blanco:#ffffff;
+  --radius:26px;
+  --shadow-soft:0 10px 40px rgba(60,30,90,.10);
+  --shadow-deep:0 24px 60px rgba(44,24,64,.22);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;overflow-x:hidden}
+body{
+  font-family:'Outfit',sans-serif;
+  color:var(--tinta);
+  background:var(--crema);
+  line-height:1.65;
+  overflow-x:hidden;
+}
+h1,h2,h3,.display{font-family:'Fraunces',serif}
+img{max-width:100%;display:block}
+a{color:inherit}
+::selection{background:var(--lila);color:#fff}
+
+.wrap{max-width:1320px;margin:0 auto;padding:0 28px}
+
+/* ---------- utilidades ---------- */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--lila);margin-bottom:14px;
+}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--biscuit);border-radius:2px}
+.section-title{font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:700;line-height:1.12;letter-spacing:-.01em}
+.section-title em{font-style:italic;color:var(--lila);font-weight:600}
+.section-sub{color:var(--tinta-suave);max-width:560px;margin-top:14px;font-size:1.05rem}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:15px 28px;border-radius:999px;font-weight:600;font-size:.98rem;
+  text-decoration:none;transition:transform .25s ease, box-shadow .25s ease, background .25s ease;
+  cursor:pointer;border:none;font-family:'Outfit',sans-serif;
+}
+.btn-primary{background:var(--berenjena);color:#fff;box-shadow:0 12px 30px rgba(44,24,64,.28)}
+.btn-primary:hover{transform:translateY(-3px);background:var(--berenjena-2)}
+.btn-lila{background:var(--lila);color:#fff;box-shadow:0 12px 30px rgba(138,95,196,.35)}
+.btn-lila:hover{transform:translateY(-3px);background:var(--lila-2)}
+.btn-ghost{background:transparent;color:var(--berenjena);border:2px solid rgba(44,24,64,.18)}
+.btn-ghost:hover{border-color:var(--berenjena);transform:translateY(-3px)}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity .8s cubic-bezier(.2,.65,.3,1), transform .8s cubic-bezier(.2,.65,.3,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- placeholder de foto ---------- */
+.ph{
+  position:relative;overflow:hidden;border-radius:var(--radius);
+  background:linear-gradient(145deg,var(--lavanda-2),#e0cef5 55%,var(--crema-2));
+  display:flex;align-items:center;justify-content:center;
+}
+.ph::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(120% 90% at 20% 10%,rgba(255,255,255,.55),transparent 55%);
+}
+.ph .ph-tag{
+  position:absolute;bottom:14px;left:14px;z-index:2;
+  background:rgba(44,24,64,.72);color:#fff;backdrop-filter:blur(6px);
+  font-size:.72rem;font-weight:500;letter-spacing:.04em;
+  padding:6px 12px;border-radius:999px;display:flex;align-items:center;gap:6px;
+}
+.ph svg{width:44%;max-width:210px;opacity:.9;position:relative;z-index:1;filter:drop-shadow(0 14px 24px rgba(60,30,90,.18))}
+.ph img.real{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.ph.has-img::after{display:none}
+
+
+/* ---------- accesibilidad ---------- */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip-link{
+  position:absolute;left:50%;transform:translate(-50%,-140%);z-index:300;
+  background:var(--berenjena);color:#fff;padding:12px 22px;border-radius:0 0 14px 14px;
+  text-decoration:none;font-weight:600;transition:transform .2s ease;
+}
+.skip-link:focus{transform:translate(-50%,0)}
+:focus-visible{outline:3px solid var(--lila);outline-offset:3px;border-radius:6px}
+.btn:focus-visible,.add-btn:focus-visible{outline-offset:4px}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{
+    animation-duration:.01ms!important;animation-iteration-count:1!important;
+    transition-duration:.01ms!important;scroll-behavior:auto!important;
+  }
+  .reveal{opacity:1!important;transform:none!important}
+}
+.faq-h{margin:0;font:inherit}
+.faq-item.open .faq-q .plus{transform:rotate(45deg)}
+/* zonas de toque cómodas en enlaces de texto pequeños */
+.foot-grid a{display:inline-block;padding:7px 0;min-height:24px}
+.foot-grid .socials a{padding:0}
+.info-row a{display:inline-block;padding:5px 0}
+
+/* ---------- enlaces legales del footer ---------- */
+.foot-legal{
+  display:flex;flex-wrap:wrap;gap:8px 26px;align-items:center;
+  padding-top:34px;border-top:1px solid rgba(253,249,243,.14);
+}
+.foot-legal a,.foot-legal button{
+  color:rgba(253,249,243,.72);font-size:.88rem;text-decoration:none;
+  background:none;border:none;padding:8px 0;cursor:pointer;font-family:inherit;
+}
+.foot-legal a:hover,.foot-legal button:hover{color:var(--lila-claro);text-decoration:underline}
+footer .foot-bottom{border-top:none;padding-top:14px}
+
+/* ---------- mapa con consentimiento ---------- */
+.mapa-consent{
+  height:100%;min-height:240px;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:10px;text-align:center;padding:30px 24px;
+  background:linear-gradient(150deg,var(--lavanda-2),var(--crema-2));
+}
+.mapa-consent .mapa-ico{font-size:2rem}
+.mapa-consent b{font-family:'Fraunces',serif;font-size:1.1rem}
+.mapa-consent p{font-size:.86rem;color:var(--tinta-suave);max-width:330px;line-height:1.5}
+.mapa-consent .btn{padding:12px 24px;font-size:.92rem}
+.mapa-consent a{font-size:.84rem;color:var(--lila);font-weight:600;text-decoration:none}
+.mapa-consent a:hover{text-decoration:underline}
+
+/* ---------- banner de cookies ---------- */
+.cookie-bar{
+  position:fixed;left:16px;right:16px;bottom:16px;z-index:250;
+  background:var(--berenjena);color:rgba(253,249,243,.9);
+  border-radius:22px;box-shadow:var(--shadow-deep);
+  padding:22px 26px;display:none;gap:20px;align-items:center;flex-wrap:wrap;
+  max-width:1180px;margin:0 auto;
+}
+.cookie-bar.show{display:flex}
+.cookie-bar p{font-size:.9rem;flex:1;min-width:260px;line-height:1.55}
+.cookie-bar a{color:var(--lila-claro);font-weight:600}
+.cookie-actions{display:flex;gap:10px;flex-wrap:wrap}
+.cookie-actions .btn{padding:12px 22px;font-size:.92rem}
+.btn-outline-light{background:transparent;color:#fff;border:2px solid rgba(253,249,243,.35)}
+.btn-outline-light:hover{border-color:#fff;transform:translateY(-2px)}
+@media(max-width:640px){
+  .cookie-bar{left:10px;right:10px;bottom:10px;padding:20px;border-radius:20px}
+  .cookie-actions{width:100%}
+  .cookie-actions .btn{flex:1;justify-content:center}
+}
+
+/* ---------- header ---------- */
+header{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  transition:background .35s ease, box-shadow .35s ease;
+}
+header.scrolled{background:rgba(253,249,243,.92);backdrop-filter:blur(14px);box-shadow:0 6px 30px rgba(44,24,64,.08)}
+.topbar{background:var(--berenjena);color:rgba(253,249,243,.85);font-size:.8rem;letter-spacing:.03em;overflow:hidden;max-height:44px;transition:max-height .35s ease}
+.topbar .wrap{display:flex;justify-content:center;gap:8px 34px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.topbar b{color:var(--lila-claro);font-weight:600}
+.topbar a{text-decoration:none}
+header.scrolled .topbar{max-height:0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-top:14px;padding-bottom:14px;transition:padding .35s ease}
+header.scrolled .nav{padding-top:8px;padding-bottom:8px}
+.logo-img{width:52px;height:52px;border-radius:50%;flex-shrink:0;box-shadow:0 4px 16px rgba(60,30,90,.25);background:#fff;transition:transform .3s ease}
+.logo:hover .logo-img{transform:rotate(-8deg) scale(1.05)}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo-badge{
+  width:46px;height:46px;border-radius:50%;
+  background:conic-gradient(from 210deg,var(--lila),var(--fresa),var(--biscuit),var(--lila));
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.logo-badge span{
+  width:38px;height:38px;border-radius:50%;background:var(--crema);
+  display:flex;align-items:center;justify-content:center;font-size:1.15rem;
+}
+.logo-text{line-height:1.05}
+.logo-text b{font-family:'Fraunces',serif;font-weight:900;font-size:1.28rem;color:var(--berenjena);letter-spacing:-.01em}
+.logo-text small{display:block;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--lila);font-weight:600}
+.nav-links{display:flex;gap:30px;list-style:none}
+.nav-links a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--tinta);position:relative;padding:4px 0}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--lila);border-radius:2px;transition:width .3s ease}
+.nav-links a:hover::after{width:100%}
+.nav-cta{display:flex;align-items:center;gap:12px}
+.burger{display:none;background:none;border:none;cursor:pointer;padding:8px}
+.burger span{display:block;width:24px;height:2.6px;background:var(--berenjena);border-radius:3px;margin:5px 0;transition:.3s}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;min-height:100svh;display:flex;align-items:center;
+  background:
+    radial-gradient(60% 70% at 85% 15%,rgba(167,127,224,.28),transparent 60%),
+    radial-gradient(50% 60% at 8% 85%,rgba(214,159,90,.16),transparent 60%),
+    linear-gradient(160deg,#f8f3fc 0%,var(--lavanda) 45%,var(--crema) 100%);
+  padding:150px 0 90px;overflow:hidden;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero-kicker{
+  display:inline-flex;align-items:center;gap:10px;background:#fff;
+  border:1px solid var(--lavanda-2);border-radius:999px;padding:9px 18px;
+  font-size:.85rem;font-weight:500;color:var(--tinta-suave);
+  box-shadow:var(--shadow-soft);margin-bottom:26px;
+}
+.hero-kicker b{color:var(--lila);font-weight:700}
+.hero h1{
+  font-size:clamp(2.6rem,5.4vw,4.3rem);font-weight:900;line-height:1.04;
+  letter-spacing:-.02em;color:var(--berenjena);
+}
+.hero h1 em{
+  font-style:italic;font-weight:600;color:var(--lila);
+  background:linear-gradient(120deg,var(--lila),var(--fresa));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.hero-sub{margin:22px 0 34px;font-size:1.12rem;color:var(--tinta-suave);max-width:520px}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px}
+.hero-proof{display:flex;gap:34px;flex-wrap:wrap}
+.proof b{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:700;color:var(--berenjena);display:block;line-height:1.1}
+.proof span{font-size:.83rem;color:var(--tinta-suave)}
+.hero-visual{position:relative}
+.hero-card{
+  position:relative;border-radius:34px;overflow:hidden;
+  box-shadow:var(--shadow-deep);transform:rotate(2deg);
+  aspect-ratio:4/4.6;
+}
+.hero-card .ph{position:absolute;inset:0;border-radius:0}
+.float-chip{
+  position:absolute;background:#fff;border-radius:18px;box-shadow:var(--shadow-deep);
+  padding:14px 18px;display:flex;align-items:center;gap:12px;z-index:3;
+  animation:float 5.5s ease-in-out infinite;
+}
+.float-chip .fc-ico{
+  width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+  font-size:1.2rem;background:var(--lavanda);
+}
+.float-chip b{display:block;font-size:.9rem;color:var(--berenjena);line-height:1.15}
+.float-chip small{font-size:.74rem;color:var(--tinta-suave)}
+.chip-1{top:6%;left:-9%;animation-delay:0s}
+.chip-2{bottom:16%;right:-7%;animation-delay:1.6s}
+.chip-3{bottom:-4%;left:4%;animation-delay:.8s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.hero-blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;pointer-events:none}
+.blob-1{width:420px;height:420px;background:var(--lila-claro);top:-120px;right:-100px}
+.blob-2{width:340px;height:340px;background:#f0d8b8;bottom:-120px;left:-120px}
+
+/* ---------- marquee ---------- */
+.marquee{
+  background:var(--berenjena);color:var(--crema);overflow:hidden;
+  padding:16px 0;position:relative;
+}
+.marquee-track{display:flex;gap:0;white-space:nowrap;animation:scroll 55s linear infinite;width:max-content}
+.marquee-track span{
+  font-family:'Fraunces',serif;font-style:italic;font-size:1.05rem;font-weight:500;
+  padding:0 26px;display:flex;align-items:center;gap:26px;
+}
+.marquee-track span::after{content:"✦";font-style:normal;color:var(--biscuit);font-size:.8rem}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* ---------- secciones ---------- */
+section{padding:104px 0}
+.sec-head{margin-bottom:56px}
+.sec-head.center{text-align:center}
+.sec-head.center .section-sub{margin-left:auto;margin-right:auto}
+
+/* ---------- por qué / valor ---------- */
+.value{background:var(--crema)}
+.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.value-card{
+  background:#fff;border-radius:var(--radius);padding:36px 30px;
+  box-shadow:var(--shadow-soft);border:1px solid rgba(138,95,196,.08);
+  transition:transform .3s ease, box-shadow .3s ease;position:relative;overflow:hidden;
+}
+.value-card:hover{transform:translateY(-8px);box-shadow:var(--shadow-deep)}
+.value-card::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:5px;
+  background:linear-gradient(90deg,var(--lila),var(--fresa),var(--biscuit));
+  opacity:0;transition:opacity .3s ease;
+}
+.value-card:hover::before{opacity:1}
+.value-ico{
+  width:58px;height:58px;border-radius:18px;background:var(--lavanda);
+  display:flex;align-items:center;justify-content:center;font-size:1.6rem;margin-bottom:22px;
+}
+.value-card h3{font-size:1.25rem;font-weight:700;color:var(--berenjena);margin-bottom:10px}
+.value-card p{font-size:.95rem;color:var(--tinta-suave)}
+
+/* ---------- carta ---------- */
+.carta{background:linear-gradient(180deg,var(--lavanda) 0%,var(--crema) 100%)}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:46px}
+.tab{
+  padding:12px 24px;border-radius:999px;border:1.5px solid rgba(44,24,64,.14);
+  background:transparent;font-family:'Outfit',sans-serif;font-weight:600;font-size:.92rem;
+  color:var(--tinta);cursor:pointer;transition:.25s;
+}
+.tab:hover{border-color:var(--lila)}
+.tab.active{background:var(--berenjena);border-color:var(--berenjena);color:#fff}
+.carta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.carta-panel{display:none}
+.carta-panel.active{display:block;animation:fadeIn .5s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.dish{
+  background:#fff;border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow-soft);transition:transform .3s ease, box-shadow .3s ease;
+}
+.dish:hover{transform:translateY(-8px);box-shadow:var(--shadow-deep)}
+.dish .ph{aspect-ratio:4/3;border-radius:0}
+.dish{display:flex;flex-direction:column}
+.dish-body{padding:24px 26px 28px;display:flex;flex-direction:column;flex:1}
+.dish .add-btn{margin-top:auto}
+.dish .badge+.add-btn{margin-top:16px}
+.dish-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+.dish h3{font-size:1.18rem;font-weight:700;color:var(--berenjena)}
+.dish .price{font-family:'Fraunces',serif;font-weight:700;font-size:1.15rem;color:var(--lila);white-space:nowrap}
+.dish p{font-size:.9rem;color:var(--tinta-suave)}
+.dish .badge{
+  display:inline-block;margin-top:12px;font-size:.72rem;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--biscuit-oscuro);background:rgba(214,159,90,.14);
+  padding:5px 12px;border-radius:999px;
+}
+.badge.pop{color:#fff;background:var(--fresa)}
+.dish .badge{align-self:flex-start}
+.carta-note{margin-top:34px;font-size:.85rem;color:var(--tinta-suave);text-align:center}
+.flavor-sel{width:100%;margin-top:16px;padding:11px 14px;border-radius:14px;border:1.6px solid rgba(138,95,196,.3);background:#fff;font-family:'Outfit',sans-serif;font-size:.88rem;color:var(--tinta);cursor:pointer;transition:border-color .25s}
+.flavor-sel:focus{outline:none;border-color:var(--lila)}
+.sabores-box{background:#fff;border-radius:var(--radius);padding:44px;box-shadow:var(--shadow-soft)}
+.sab-title{font-size:1.15rem;color:var(--berenjena);margin:36px 0 16px}
+.sab-title:first-child{margin-top:0}
+.sab-title small{font-family:'Outfit',sans-serif;font-size:.78rem;color:var(--tinta-suave);font-weight:500}
+.flavor-cloud{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:9px 18px;border-radius:999px;background:var(--crema);border:1px solid rgba(138,95,196,.18);font-size:.88rem;font-weight:500;color:var(--tinta);transition:.25s;cursor:default}
+.chip:hover{border-color:var(--lila);color:var(--lila);transform:translateY(-2px)}
+.rellenitas-note{margin-top:38px;background:var(--lavanda);border-radius:18px;padding:20px 24px;font-size:.93rem;color:var(--tinta);line-height:1.7}
+
+/* ---------- popup elegir sabor ---------- */
+.sabor-overlay{position:fixed;inset:0;background:rgba(30,15,45,.55);backdrop-filter:blur(5px);z-index:180;opacity:0;pointer-events:none;transition:opacity .3s ease;display:flex;align-items:center;justify-content:center;padding:20px}
+.sabor-overlay.open{opacity:1;pointer-events:auto}
+.sabor-modal{background:var(--crema);border-radius:30px;max-width:660px;width:100%;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 40px 100px rgba(20,8,35,.45);transform:translateY(26px) scale(.96);transition:transform .4s cubic-bezier(.2,.65,.3,1);overflow:hidden}
+.sabor-overlay.open .sabor-modal{transform:none}
+.sabor-head{padding:28px 32px 20px;border-bottom:1px solid rgba(138,95,196,.15);display:flex;justify-content:space-between;align-items:flex-start;gap:16px;background:radial-gradient(120% 160% at 0% 0%,var(--lavanda-2),var(--crema) 70%)}
+.sabor-kicker{display:block;font-size:.75rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--lila);margin-bottom:6px}
+.sabor-head h3{font-size:1.4rem;color:var(--berenjena);line-height:1.15}
+.sabor-head .sabor-price{font-family:'Fraunces',serif;font-weight:700;color:var(--lila);font-size:1.05rem}
+.sabor-body{overflow-y:auto;padding:24px 32px 30px}
+.sabor-group-title{font-family:'Fraunces',serif;font-size:1.02rem;color:var(--berenjena);margin:26px 0 14px;display:flex;align-items:center;gap:10px}
+.sabor-group-title:first-child{margin-top:0}
+.sabor-group-title::after{content:"";flex:1;height:1px;background:rgba(138,95,196,.18)}
+.sabor-grid{display:flex;flex-wrap:wrap;gap:10px}
+.sabor-opt{padding:10px 19px;border-radius:999px;border:1.5px solid rgba(138,95,196,.25);background:#fff;cursor:pointer;font-family:'Outfit',sans-serif;font-size:.9rem;font-weight:500;color:var(--tinta);transition:all .2s ease}
+.sabor-opt:hover{border-color:var(--lila);color:var(--lila);transform:translateY(-2px)}
+.sabor-opt.sel{background:var(--lila);border-color:var(--lila);color:#fff;box-shadow:0 8px 22px rgba(138,95,196,.4);transform:translateY(-2px)}
+.sabor-foot{padding:18px 32px 24px;border-top:1px solid rgba(138,95,196,.15);background:#fff;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.sabor-chosen{font-size:.92rem;color:var(--tinta-suave)}
+.sabor-chosen b{color:var(--berenjena)}
+.btn[disabled]{opacity:.4;pointer-events:none}
+@media(max-width:640px){
+  .sabor-overlay{padding:0;align-items:flex-end}
+  .sabor-modal{border-radius:26px 26px 0 0;max-height:92vh}
+  .sabor-head,.sabor-body,.sabor-foot{padding-left:22px;padding-right:22px}
+  .sabor-foot .btn{width:100%;justify-content:center}
+}
+
+/* ---------- caprichin (banda oscura) ---------- */
+.caprichin{
+  background:
+    radial-gradient(70% 90% at 90% 10%,rgba(167,127,224,.35),transparent 55%),
+    radial-gradient(50% 70% at 5% 95%,rgba(226,106,139,.22),transparent 60%),
+    var(--berenjena);
+  color:var(--crema);
+}
+.caprichin .eyebrow{color:var(--lila-claro)}
+.caprichin .section-title{color:#fff}
+.caprichin .section-title em{color:var(--lila-claro)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.split .ph{aspect-ratio:4/4.4;box-shadow:var(--shadow-deep)}
+.cap-list{list-style:none;margin:30px 0 38px;display:grid;gap:18px}
+.cap-list li{display:flex;gap:16px;align-items:flex-start}
+.cap-list .dot{
+  width:34px;height:34px;border-radius:50%;flex-shrink:0;margin-top:2px;
+  background:rgba(205,178,239,.16);border:1px solid rgba(205,178,239,.4);
+  display:flex;align-items:center;justify-content:center;font-size:.95rem;
+}
+.cap-list b{color:#fff}
+.cap-list p{font-size:.93rem;color:rgba(253,249,243,.72)}
+
+/* ---------- shakes ---------- */
+.shakes{background:linear-gradient(180deg,var(--crema),#f6effc)}
+.shake-row{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin-top:14px}
+.shake{
+  border-radius:22px;padding:0 14px 20px;text-align:center;
+  transition:transform .3s ease, box-shadow .3s ease;position:relative;overflow:hidden;
+}
+.shake:hover{transform:translateY(-8px) rotate(-1deg);box-shadow:var(--shadow-deep)}
+.shake-img{margin:0 -14px 16px;aspect-ratio:1/1;overflow:hidden}
+.shake-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.shake:hover .shake-img img{transform:scale(1.09)}
+.shake b{font-family:'Fraunces',serif;font-size:1.02rem;color:var(--berenjena);display:block}
+.shake span{font-size:.8rem;color:var(--tinta-suave)}
+.shake .shake-price{display:block;font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:var(--lila);margin-top:6px}
+.shake .add-btn{width:auto;padding:9px 18px;margin-top:12px;background:rgba(255,255,255,.7)}
+.s1{background:linear-gradient(160deg,#f3e4d0,#ecd2ae)}
+.s2{background:linear-gradient(160deg,#ecdff8,#d9c2f2)}
+.s3{background:linear-gradient(160deg,#fbe1e8,#f5c3d2)}
+.s4{background:linear-gradient(160deg,#e8e2d8,#d9cfc0)}
+.s5{background:linear-gradient(160deg,#e4d5c8,#cdb39c)}
+
+/* ---------- pasos encargo ---------- */
+.pasos{background:linear-gradient(180deg,var(--crema),var(--lavanda))}
+.pasos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;counter-reset:paso}
+.paso{
+  background:#fff;border-radius:var(--radius);padding:40px 32px;box-shadow:var(--shadow-soft);
+  position:relative;counter-increment:paso;
+}
+.paso::before{
+  content:"0" counter(paso);
+  font-family:'Fraunces',serif;font-weight:900;font-size:3.4rem;line-height:1;
+  background:linear-gradient(120deg,var(--lila-claro),var(--lila));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  display:block;margin-bottom:18px;
+}
+.paso h3{font-size:1.22rem;color:var(--berenjena);margin-bottom:10px}
+.paso p{font-size:.94rem;color:var(--tinta-suave)}
+.pasos-cta{text-align:center;margin-top:52px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+/* ---------- historia ---------- */
+.historia .split .ph{aspect-ratio:4/4.8}
+.quote{
+  font-family:'Fraunces',serif;font-style:italic;font-size:1.25rem;color:var(--berenjena);
+  border-left:4px solid var(--biscuit);padding-left:22px;margin:28px 0;line-height:1.5;
+}
+.historia p.body{color:var(--tinta-suave);margin-bottom:16px}
+
+/* ---------- opiniones ---------- */
+.reviews{background:var(--lavanda)}
+.rating-banner{
+  display:flex;align-items:center;justify-content:center;gap:26px;flex-wrap:wrap;
+  background:#fff;border-radius:24px;box-shadow:var(--shadow-soft);
+  padding:24px 38px;width:fit-content;margin:0 auto 54px;
+}
+.rating-banner>.gicon{width:40px;height:40px}
+.rating-num{font-family:'Fraunces',serif;font-size:2.7rem;font-weight:900;color:var(--berenjena);line-height:1}
+.rating-info .stars{font-size:1.05rem}
+.rating-info span{font-size:.85rem;color:var(--tinta-suave)}
+.rating-info b{color:var(--tinta)}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.rev{
+  background:#fff;border-radius:var(--radius);padding:34px 30px 26px;box-shadow:var(--shadow-soft);
+  display:flex;flex-direction:column;gap:18px;position:relative;overflow:hidden;
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+.rev:hover{transform:translateY(-8px);box-shadow:var(--shadow-deep)}
+.rev::before{
+  content:"“";font-family:'Fraunces',serif;font-size:7rem;line-height:.9;
+  color:var(--lavanda-2);position:absolute;top:10px;right:24px;pointer-events:none;
+}
+.stars{color:var(--biscuit);letter-spacing:3px;font-size:1rem}
+.rev p{font-size:.97rem;color:var(--tinta);font-style:italic;flex:1;position:relative}
+.rev-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;border-top:1px dashed rgba(44,24,64,.14);padding-top:18px}
+.rev-author{display:flex;align-items:center;gap:13px}
+.rev-avatar{
+  width:44px;height:44px;border-radius:50%;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-family:'Fraunces',serif;
+  box-shadow:0 6px 16px rgba(60,30,90,.2);
+}
+.rev-author b{display:block;font-size:.92rem;color:var(--berenjena)}
+.rev-author small{font-size:.76rem;color:var(--tinta-suave)}
+.rev-google{display:flex;align-items:center;gap:8px;font-size:.7rem;color:var(--tinta-suave);line-height:1.35;text-align:left}
+/* reseñas reales: pie de tarjeta siempre alineado abajo */
+.rev blockquote{flex:1;margin:0;border:none;padding:0}
+.rev blockquote p{margin:0}
+.rev-meta{margin-top:auto;align-items:flex-start}
+.rev-author{align-items:flex-start}
+.rev-author>div{min-width:0}
+.rev-author b{line-height:1.35}
+.rev-author small{display:block;line-height:1.35;overflow-wrap:anywhere}
+.rev-google{flex-shrink:0}
+.rev-google .gicon{width:21px;height:21px;flex-shrink:0}
+.rev-google b{color:var(--tinta);font-size:.74rem}
+
+/* ---------- visita / horarios ---------- */
+.visita-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:stretch}
+.info-card{
+  background:#fff;border-radius:var(--radius);box-shadow:var(--shadow-soft);
+  padding:44px 42px;display:flex;flex-direction:column;gap:28px;
+}
+.info-row{display:flex;gap:18px;align-items:flex-start}
+.info-ico{
+  width:48px;height:48px;border-radius:14px;background:var(--lavanda);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;font-size:1.25rem;
+}
+.info-row b{display:block;color:var(--berenjena);font-size:1rem;margin-bottom:2px}
+.info-row p{font-size:.92rem;color:var(--tinta-suave)}
+.hours{width:100%;border-collapse:collapse;font-size:.93rem}
+.hours td{padding:9px 0;border-bottom:1px dashed rgba(44,24,64,.12);color:var(--tinta-suave)}
+.hours td:last-child{text-align:right;color:var(--berenjena);font-weight:600}
+.hours tr.today td{color:var(--lila);font-weight:700}
+.mapa{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-soft);min-height:420px;position:relative}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--crema)}
+.faq-list{max-width:820px;margin:0 auto;display:grid;gap:14px}
+.faq-item{
+  background:#fff;border-radius:20px;box-shadow:var(--shadow-soft);
+  overflow:hidden;border:1px solid rgba(138,95,196,.08);
+}
+.faq-q{
+  width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:24px 28px;background:none;border:none;cursor:pointer;text-align:left;
+  font-family:'Outfit',sans-serif;font-weight:600;font-size:1.02rem;color:var(--berenjena);
+}
+.faq-q .plus{
+  width:30px;height:30px;border-radius:50%;background:var(--lavanda);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;font-size:1.1rem;color:var(--lila);
+  transition:transform .3s ease;
+}
+.faq-item.open .plus{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a p{padding:0 28px 26px;font-size:.95rem;color:var(--tinta-suave)}
+
+/* ---------- CTA final ---------- */
+.cta-final{
+  background:
+    radial-gradient(60% 80% at 15% 20%,rgba(167,127,224,.4),transparent 60%),
+    radial-gradient(50% 70% at 90% 90%,rgba(214,159,90,.3),transparent 60%),
+    var(--berenjena);
+  border-radius:40px;padding:90px 60px;text-align:center;color:#fff;
+  position:relative;overflow:hidden;
+}
+.cta-final h2{font-size:clamp(2rem,4vw,3.2rem);font-weight:900;letter-spacing:-.01em;line-height:1.1}
+.cta-final h2 em{font-style:italic;font-weight:600;color:var(--lila-claro)}
+.cta-final p{margin:20px auto 40px;max-width:520px;color:rgba(253,249,243,.75);font-size:1.08rem}
+.cta-final .btn-lila{box-shadow:0 16px 44px rgba(138,95,196,.5)}
+
+/* ---------- footer ---------- */
+footer{background:#221232;color:rgba(253,249,243,.7);padding:70px 0 36px;margin-top:104px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px}
+.foot-grid h4{font-family:'Fraunces',serif;color:#fff;font-size:1.02rem;margin-bottom:18px}
+.foot-grid ul{list-style:none;display:grid;gap:10px}
+.foot-grid a{text-decoration:none;font-size:.92rem;transition:color .2s}
+.foot-grid a:hover{color:var(--lila-claro)}
+.foot-brand p{font-size:.92rem;margin-top:16px;max-width:300px}
+.socials{display:flex;gap:12px;margin-top:22px}
+.socials a{
+  width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.08);
+  display:flex;align-items:center;justify-content:center;text-decoration:none;
+  transition:background .25s ease, transform .25s ease;font-size:1.05rem;
+}
+.socials a:hover{background:var(--lila);transform:translateY(-3px)}
+.foot-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:28px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.82rem;
+}
+.foot-bottom .lema{font-family:'Fraunces',serif;font-style:italic;color:var(--lila-claro)}
+
+/* ---------- whatsapp flotante ---------- */
+.wa-float{
+  position:fixed;bottom:26px;right:26px;z-index:90;
+  width:60px;height:60px;border-radius:50%;background:#25d366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 14px 34px rgba(37,211,102,.4);text-decoration:none;
+  transition:transform .25s ease;
+}
+.wa-float:hover{transform:scale(1.1)}
+.wa-float svg{width:30px;height:30px;fill:#fff}
+
+/* ---------- premium extras ---------- */
+.progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:300;background:linear-gradient(90deg,var(--lila),var(--fresa),var(--biscuit))}
+.hero-card img.real{animation:kenburns 16s ease-in-out infinite alternate}
+@keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.09)}}
+.dish img.real,.split .ph img.real{transition:transform .7s cubic-bezier(.2,.65,.3,1)}
+.dish:hover img.real{transform:scale(1.07)}
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-20deg);transition:left .6s ease}
+.btn:hover::after{left:140%}
+.trust{background:var(--crema);border-bottom:1px solid rgba(138,95,196,.1);padding:24px 0}
+.trust .wrap{display:flex;justify-content:center;gap:14px 56px;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:10px;font-size:.93rem;color:var(--tinta-suave);font-weight:500}
+.trust-item b{color:var(--berenjena);font-weight:700}
+.trust-item .t-ico{font-size:1.15rem}
+.insta{padding:0 0 104px}
+.insta-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin-top:46px}
+.insta-item{position:relative;border-radius:18px;overflow:hidden;aspect-ratio:1;display:block}
+.insta-item img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease, filter .45s ease}
+.insta-item:hover img{transform:scale(1.1);filter:blur(7px) brightness(.7)}
+.insta-ov{
+  position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:11px;
+  background:rgba(44,24,64,.28);opacity:0;transition:opacity .35s ease;
+}
+.insta-item:hover .insta-ov{opacity:1}
+.ig-badge{
+  width:48px;height:48px;border-radius:15px;
+  background:linear-gradient(45deg,#FEDA75 0%,#FA7E1E 30%,#D62976 55%,#962FBF 78%,#4F5BD5 100%);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 10px 26px rgba(150,47,191,.5);
+  transform:translateY(10px) scale(.85);transition:transform .35s cubic-bezier(.2,.65,.3,1);
+}
+.insta-item:hover .ig-badge{transform:none}
+.ig-badge svg{width:24px;height:24px;fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round}
+.insta-ov span{
+  color:#fff;font-size:.85rem;font-weight:600;letter-spacing:.02em;
+  transform:translateY(8px);opacity:0;transition:all .35s ease .06s;
+  text-shadow:0 2px 10px rgba(20,8,35,.5);
+}
+.insta-item:hover .insta-ov span{transform:none;opacity:1}
+footer{position:relative}
+footer::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--lila),var(--fresa),var(--biscuit))}
+.socials a svg{width:18px;height:18px;fill:#fff;opacity:.9}
+.foot-hours{font-size:.88rem;line-height:1.9;color:rgba(253,249,243,.7)}
+.foot-hours b{color:#fff;font-weight:600}
+.nav-new{font-size:.58rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--fresa);color:#fff;border-radius:999px;padding:2px 7px;margin-left:6px;vertical-align:2px}
+
+/* ---------- carrito ---------- */
+.cart-btn{position:relative;width:46px;height:46px;border-radius:50%;border:2px solid rgba(44,24,64,.15);background:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.25s;flex-shrink:0}
+.cart-btn:hover{border-color:var(--lila);transform:translateY(-2px)}
+.cart-btn svg{width:20px;height:20px;fill:none;stroke:var(--berenjena);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.cart-count{position:absolute;top:-5px;right:-5px;min-width:20px;height:20px;border-radius:999px;background:var(--fresa);color:#fff;font-size:.7rem;font-weight:700;display:flex;align-items:center;justify-content:center;padding:0 5px;opacity:0;transform:scale(.5);transition:.25s}
+.cart-count.show{opacity:1;transform:scale(1)}
+@keyframes bump{40%{transform:scale(1.35)}}
+.cart-count.bump{animation:bump .35s ease}
+.add-btn{margin-top:16px;padding:11px 18px;border-radius:999px;border:1.6px solid rgba(138,95,196,.35);background:transparent;color:var(--lila);font-family:'Outfit',sans-serif;font-weight:600;font-size:.87rem;cursor:pointer;transition:.25s}
+.add-btn:hover{background:var(--lila);border-color:var(--lila);color:#fff}
+.dish .add-btn{width:100%;display:block}
+.cart-overlay{position:fixed;inset:0;background:rgba(30,15,45,.5);backdrop-filter:blur(3px);opacity:0;pointer-events:none;transition:opacity .3s;z-index:150}
+.cart-overlay.open{opacity:1;pointer-events:auto}
+.cart-drawer{position:fixed;top:0;right:0;bottom:0;width:min(400px,100vw);background:var(--crema);z-index:160;transform:translateX(105%);transition:transform .45s cubic-bezier(.2,.65,.3,1);display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(44,24,64,.25)}
+.cart-drawer.open{transform:none}
+.cart-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;padding:20px 24px 18px;border-bottom:1px solid rgba(138,95,196,.15);background:radial-gradient(120% 160% at 0% 0%,var(--lavanda-2),var(--crema) 72%)}
+.cart-head h3{font-size:1.28rem;color:var(--berenjena);line-height:1.15}
+.cart-sub{display:block;font-size:.78rem;color:var(--tinta-suave);margin-top:3px}
+.cart-close{background:none;border:none;font-size:1.3rem;cursor:pointer;color:var(--tinta-suave);line-height:1;padding:4px 6px;border-radius:50%;transition:.2s}
+.cart-close:hover{color:var(--berenjena);background:rgba(44,24,64,.07)}
+.cart-items{flex:1;overflow-y:auto;padding:6px 24px}
+
+/* --- estado vacío --- */
+.cart-empty{display:flex;flex-direction:column;align-items:center;text-align:center;padding:54px 10px 40px;gap:8px}
+.cart-empty .ce-ico{
+  width:150px;height:auto;margin-bottom:2px;
+  filter:drop-shadow(0 14px 26px rgba(60,30,90,.22));
+  animation:ceFloat 4.5s ease-in-out infinite;
+}
+@keyframes ceFloat{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-9px) rotate(2deg)}}
+@media (prefers-reduced-motion: reduce){.cart-empty .ce-ico{animation:none}}
+.cart-empty b{font-family:'Fraunces',serif;font-size:1.1rem;color:var(--berenjena);margin-top:4px}
+.cart-empty p{font-size:.88rem;color:var(--tinta-suave);line-height:1.55;max-width:250px}
+.cart-empty .btn{margin-top:14px;padding:12px 24px;font-size:.9rem}
+
+/* --- línea de producto --- */
+.cart-item{
+  display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;
+  padding:15px 0;border-bottom:1px dashed rgba(44,24,64,.12);
+}
+.cart-item:last-child{border-bottom:none}
+.cart-item.just-added{animation:ciIn .45s cubic-bezier(.2,.65,.3,1)}
+@keyframes ciIn{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+.ci-img{
+  width:62px;height:62px;border-radius:14px;object-fit:cover;flex-shrink:0;
+  background:var(--lavanda-2);box-shadow:0 4px 12px rgba(60,30,90,.14);
+}
+.ci-img-ph{display:flex;align-items:center;justify-content:center;font-size:1.5rem}
+.ci-info{min-width:0}
+.ci-info b{font-size:.93rem;color:var(--berenjena);display:block;line-height:1.28}
+.ci-var{
+  display:block;font-size:.76rem;color:var(--lila);font-weight:600;margin-top:2px;line-height:1.35;
+}
+.ci-unit{display:block;font-size:.75rem;color:var(--tinta-suave);margin-top:3px}
+.ci-side{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex-shrink:0}
+.ci-total{font-family:'Fraunces',serif;font-weight:700;font-size:.98rem;color:var(--berenjena)}
+.ci-del{
+  background:none;border:none;cursor:pointer;padding:3px;line-height:0;border-radius:8px;
+  opacity:.4;transition:.2s;
+}
+.ci-del svg{width:15px;height:15px;fill:var(--tinta-suave)}
+.ci-del:hover{opacity:1;background:rgba(226,106,139,.12)}
+.ci-del:hover svg{fill:var(--fresa)}
+.qty{display:flex;align-items:center;gap:8px}
+.qty span{min-width:18px;text-align:center;font-weight:700;color:var(--berenjena);font-size:.92rem}
+.qty button{
+  width:28px;height:28px;border-radius:50%;border:1.5px solid rgba(44,24,64,.15);background:#fff;
+  cursor:pointer;font-weight:700;color:var(--berenjena);font-size:.95rem;line-height:1;
+  display:flex;align-items:center;justify-content:center;transition:.2s;
+}
+.qty button:hover{border-color:var(--lila);color:var(--lila);background:var(--lavanda)}
+
+/* --- pie del carrito --- */
+.cart-foot{padding:18px 24px calc(18px + env(safe-area-inset-bottom));border-top:1px solid rgba(138,95,196,.15);background:#fff}
+.cart-total{display:flex;justify-content:space-between;align-items:baseline;font-family:'Fraunces',serif;font-weight:700;font-size:1.2rem;color:var(--berenjena);margin-bottom:13px}
+.cart-total span:first-child{font-family:'Outfit',sans-serif;font-size:.88rem;font-weight:500;color:var(--tinta-suave)}
+.cart-send{width:100%;justify-content:center;background:#25d366;box-shadow:0 12px 28px rgba(37,211,102,.35)}
+.cart-send:hover{background:#1fbb59}
+.cart-send svg{width:19px;height:19px;fill:#fff;flex-shrink:0}
+.cart-keep{
+  display:block;width:100%;margin-top:10px;background:none;border:none;cursor:pointer;
+  font-family:'Outfit',sans-serif;font-size:.85rem;font-weight:600;color:var(--tinta-suave);padding:8px 0;
+}
+.cart-keep:hover{color:var(--lila)}
+.cart-note{font-size:.76rem;color:var(--tinta-suave);text-align:center;margin-top:8px;line-height:1.5}
+#cartSend.disabled{opacity:.45;pointer-events:none}
+.toast{
+  position:fixed;bottom:104px;left:50%;transform:translate(-50%,20px);
+  background:var(--berenjena);color:#fff;padding:9px 20px 9px 9px;border-radius:999px;
+  font-size:.88rem;font-weight:500;opacity:0;transition:.35s;z-index:170;pointer-events:none;
+  box-shadow:var(--shadow-deep);display:flex;align-items:center;gap:11px;max-width:min(420px,90vw);
+}
+.toast img{width:34px;height:34px;border-radius:50%;object-fit:cover;flex-shrink:0}
+.toast img[hidden]{display:none!important}
+.toast span{text-align:left;line-height:1.35}
+/* con el carrito abierto el aviso sobra: el producto ya se ve entrar en la lista */
+.cart-drawer.open~.toast{opacity:0}
+.toast:has(img[hidden]){padding-left:20px}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+
+/* ---------- selector "monta tu caja" (minicheesecakes) ---------- */
+.sabor-search{padding:14px 32px;background:#fff;border-bottom:1px solid rgba(138,95,196,.15);display:flex;align-items:center;gap:10px}
+.sabor-search .ss-ico{font-size:.95rem;opacity:.55}
+.sabor-search input{
+  flex:1;border:none;background:none;font-family:'Outfit',sans-serif;font-size:.95rem;
+  color:var(--tinta);padding:6px 0;
+}
+.sabor-search input:focus{outline:none}
+.sabor-search:focus-within{box-shadow:inset 0 -2px 0 var(--lila)}
+.sabor-search input::-webkit-search-cancel-button{cursor:pointer}
+.sabor-empty{text-align:center;color:var(--tinta-suave);font-size:.9rem;padding:26px 0}
+.sabor-progress{padding:16px 32px;background:#fff;border-bottom:1px solid rgba(138,95,196,.15)}
+.sp-top{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:9px}
+.sp-top>span{font-weight:600;font-size:.9rem;color:var(--berenjena)}
+.sp-actions{display:flex;gap:16px;flex-shrink:0}
+.sp-actions button{background:none;border:none;font-family:inherit;font-size:.8rem;font-weight:600;color:var(--lila);cursor:pointer;padding:8px 0}
+.sp-actions button:hover{text-decoration:underline}
+.sp-bar{height:8px;border-radius:999px;background:var(--lavanda-2);overflow:hidden}
+.sp-bar i{display:block;height:100%;width:0;border-radius:999px;background:linear-gradient(90deg,var(--lila),var(--fresa));transition:width .35s cubic-bezier(.2,.65,.3,1)}
+.sp-hint{font-size:.79rem;color:var(--tinta-suave);margin-top:9px;line-height:1.45}
+.mini-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mini-opt{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  background:#fff;border:1.5px solid rgba(138,95,196,.2);border-radius:14px;
+  padding:7px 7px 7px 14px;cursor:pointer;transition:border-color .2s ease,background .2s ease,box-shadow .2s ease;
+}
+.mini-opt:hover{border-color:var(--lila)}
+.mini-opt.sel{border-color:var(--lila);background:var(--lavanda);box-shadow:0 6px 16px rgba(138,95,196,.16)}
+.mo-name{font-size:.87rem;font-weight:500;line-height:1.25}
+.mo-qty{display:flex;align-items:center;gap:5px;flex-shrink:0}
+.mo-n{min-width:17px;text-align:center;font-weight:700;font-size:.95rem;color:var(--berenjena);font-family:'Fraunces',serif}
+.mini-opt.sel .mo-n{color:var(--lila)}
+.mo-btn{
+  width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(44,24,64,.15);background:#fff;
+  color:var(--berenjena);font-weight:700;font-size:1rem;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;transition:.2s;flex-shrink:0;
+}
+.mo-btn:hover:not(:disabled){border-color:var(--lila);color:var(--lila)}
+.mo-btn:disabled{opacity:.28;cursor:not-allowed}
+#saborAdd:disabled{opacity:.5;cursor:not-allowed}
+
+/* ---------- responsive ---------- */
+@media(max-width:1000px){
+  .hero-grid,.split,.visita-grid{grid-template-columns:1fr;gap:48px}
+  .value-grid,.carta-grid,.pasos-grid,.rev-grid{grid-template-columns:1fr 1fr}
+  .shake-row{grid-template-columns:repeat(3,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .hero{padding-top:130px}
+  .hero-card{max-width:520px;margin:0 auto}
+  .chip-1{left:0}.chip-2{right:0}
+}
+@media(max-width:1000px){
+  .insta-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:640px){
+  section{padding:72px 0}
+  .topbar .wrap{font-size:.7rem;gap:4px 16px}
+  .topbar .hide-sm{display:none}
+  .insta-grid{grid-template-columns:repeat(2,1fr)}
+  .nav-links,.nav-cta .btn{display:none}
+  .burger{display:block}
+  .value-grid,.carta-grid,.pasos-grid,.rev-grid{grid-template-columns:1fr}
+  .shake-row{grid-template-columns:1fr 1fr}
+  .cta-final{padding:64px 28px;border-radius:28px}
+  .info-card{padding:32px 26px}
+  .hero-proof{gap:22px}
+}
+@media(max-width:640px){
+  .nav-links.open{
+    display:flex;position:fixed;inset:0;background:var(--crema);
+    flex-direction:column;justify-content:center;align-items:center;gap:34px;
+    font-size:1.3rem;z-index:99;
+  }
+}
+
+/* ================================================================
+   MÓVIL — escala tipográfica, densidad y layouts propios
+   ================================================================ */
+@media(max-width:640px){
+  .wrap{padding:0 18px}
+  section{padding:58px 0}
+  .sec-head{margin-bottom:28px}
+  .section-title{font-size:clamp(1.6rem,7.2vw,2.05rem)}
+  .section-sub{font-size:.95rem;margin-top:10px}
+  .eyebrow{font-size:.69rem;margin-bottom:9px}
+  .btn{padding:13px 22px;font-size:.92rem}
+
+  /* cabecera */
+  .nav{padding-top:10px;padding-bottom:10px}
+  header.scrolled .nav{padding-top:7px;padding-bottom:7px}
+  .logo-img{width:44px;height:44px}
+  .logo{gap:10px}
+  .logo-text b{font-size:1.08rem}
+  .logo-text small{font-size:.58rem;letter-spacing:.13em}
+
+  /* hero */
+  .hero{min-height:auto;padding-top:104px;padding-bottom:50px}
+  .hero-grid{gap:32px}
+  .hero-kicker{font-size:.71rem;padding:8px 14px;gap:7px;flex-wrap:wrap}
+  .hero h1{font-size:clamp(2.05rem,9.6vw,2.8rem)}
+  .hero-sub{font-size:1rem;margin:14px 0 24px}
+  .hero-actions{gap:10px;margin-bottom:30px}
+  .hero-actions .btn{flex:1 1 100%;justify-content:center}
+  .hero-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .proof b{font-size:1.28rem}
+  .proof span{font-size:.75rem;line-height:1.3;display:block}
+  .float-chip{transform:scale(.82);transform-origin:center}
+  .chip-1{left:-4%}.chip-2{right:-4%}.chip-3{left:0}
+  .hero-blob{opacity:.32}
+
+  /* franja de confianza */
+  .trust{padding:18px 0}
+  .trust .wrap{gap:10px 20px}
+  .trust-item{font-size:.8rem;gap:7px}
+
+  /* por qué Tartarachin */
+  .value-grid{gap:13px}
+  .value-card{padding:22px 20px;border-radius:20px}
+  .value-card h3{font-size:1.06rem;margin-bottom:7px}
+  .value-card p{font-size:.87rem}
+  .value-ico{width:46px;height:46px;font-size:1.2rem;margin-bottom:14px}
+
+  /* carta: rejilla de 2 columnas tipo app */
+  .tabs{gap:8px;margin-bottom:22px;flex-wrap:nowrap;overflow-x:auto;padding:2px 18px 6px;margin-left:-18px;margin-right:-18px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:0 0 auto;font-size:.85rem;padding:10px 17px}
+  .carta-grid{grid-template-columns:1fr 1fr;gap:12px}
+  .dish{border-radius:18px}
+  .dish:hover{transform:none}
+  .dish-body{padding:12px 13px 14px}
+  .dish-top{flex-direction:column;align-items:flex-start;gap:1px;margin-bottom:5px}
+  .dish h3{font-size:.92rem;line-height:1.24}
+  .dish .price{font-size:1rem}
+  .dish p{font-size:.77rem;line-height:1.45}
+  .dish p{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .dish .badge{font-size:.6rem;padding:4px 9px;margin-top:8px}
+  .dish .add-btn{margin-top:11px;padding:9px 8px;font-size:.78rem}
+  .dish .badge+.add-btn{margin-top:11px}
+  .carta-note{font-size:.77rem;margin-top:22px}
+  .sabores-box{padding:24px 20px;border-radius:20px}
+  .flavor-cloud{gap:7px}
+  .chip{font-size:.79rem;padding:7px 14px}
+
+  /* tartarashakes */
+  .shake-row{gap:12px;margin-top:6px}
+  .shake{padding:14px 14px 16px;border-radius:18px}
+  .shake:hover{transform:none}
+  .shake-img{margin:0 -6px 12px}
+  .shake b{font-size:.93rem}
+  .shake span{font-size:.74rem}
+  .shake .shake-price{font-size:.98rem;margin-top:4px}
+  .shake .add-btn{width:100%;padding:9px 8px;font-size:.78rem;margin-top:10px}
+
+  /* pasos del encargo */
+  .pasos-grid{gap:12px}
+  .paso{padding:22px 20px;border-radius:20px}
+  .paso::before{font-size:2.2rem;margin-bottom:8px}
+  .paso h3{font-size:1.05rem;margin-bottom:6px}
+  .paso p{font-size:.87rem}
+  .pasos-cta{margin-top:28px;gap:10px}
+  .pasos-cta .btn{flex:1 1 100%;justify-content:center}
+
+  /* reseñas: carrusel deslizable */
+  .rating-banner{gap:8px 16px;padding:18px 20px;width:auto;margin-bottom:26px;justify-content:center}
+  .rating-banner>.gicon{width:30px;height:30px}
+  .rating-num{font-size:2rem}
+  .rating-info{text-align:left}
+  .rating-info .stars{font-size:.95rem}
+  .rating-info span{font-size:.8rem}
+  .rating-banner .btn{flex:1 1 100%;justify-content:center;padding:11px 18px;font-size:.87rem;margin-top:4px}
+  .rev-grid{
+    display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:84%;
+    gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;
+    padding:4px 18px 12px;margin:0 -18px;scrollbar-width:none;
+  }
+  .rev-grid::-webkit-scrollbar{display:none}
+  .rev{scroll-snap-align:center;padding:24px 22px 20px;border-radius:20px;gap:14px}
+  .rev:hover{transform:none}
+  .rev::before{font-size:5rem;top:6px;right:18px}
+  .rev p{font-size:.9rem}
+  .rev-meta{flex-direction:column;align-items:flex-start;gap:12px;padding-top:14px}
+  .rev-avatar{width:38px;height:38px;font-size:.9rem}
+  .rev-author b{font-size:.88rem}
+
+  /* visítanos */
+  .info-card{padding:24px 20px}
+  .info-row{gap:14px}
+  .info-ico{width:40px;height:40px;font-size:1.05rem}
+  .hours,.hours tbody{display:block}
+  .hours tr{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:7px 0;border-bottom:1px dashed rgba(44,24,64,.12)}
+  .hours td{padding:0;border:none;font-size:.78rem}
+  .hours td:first-child,.hours td:last-child{white-space:nowrap}
+  .hours td:last-child{text-align:right}
+  .mapa-consent{padding:26px 20px;min-height:210px}
+  .mapa-consent p{font-size:.82rem}
+
+  /* faq */
+  .faq-q{padding:18px 20px;font-size:.94rem;gap:14px}
+  .faq-q .plus{width:26px;height:26px;font-size:1rem}
+  .faq-a p{padding:0 20px 20px;font-size:.88rem}
+
+  /* instagram */
+  .insta{padding-bottom:58px}
+  .insta-grid{grid-template-columns:repeat(3,1fr);gap:8px;margin-top:26px}
+  .insta-item{border-radius:12px}
+
+  /* cta final */
+  .cta-final{padding:46px 22px;border-radius:26px}
+  .cta-final p{font-size:.96rem;margin:14px auto 28px}
+
+  /* footer */
+  footer{padding:52px 0 28px;margin-top:58px}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px 18px;margin-bottom:30px}
+  .foot-brand{grid-column:1/-1}
+  .foot-grid>div:last-child{grid-column:1/-1}
+  .foot-brand p{font-size:.88rem;margin-top:13px}
+  .socials{margin-top:18px}
+  .socials a{width:38px;height:38px}
+  .foot-grid h4{font-size:.95rem;margin-bottom:9px}
+  .foot-grid ul{gap:0}
+  .foot-grid a{font-size:.87rem}
+  .foot-hours{font-size:.82rem}
+  .foot-legal{gap:0 18px;padding-top:22px}
+  .foot-legal a,.foot-legal button{font-size:.84rem}
+  .foot-bottom{flex-direction:column;align-items:flex-start;gap:6px;font-size:.79rem}
+
+  /* flotantes */
+  .wa-float{width:52px;height:52px;bottom:16px;right:16px}
+  .wa-float svg{width:26px;height:26px}
+  .toast{bottom:80px;font-size:.85rem;padding:11px 20px;max-width:86vw;text-align:center;line-height:1.35}
+
+  /* carrito y modal a pantalla completa */
+  .cart-drawer{width:100vw}
+  .cart-head{padding:16px 18px 14px}
+  .cart-head h3{font-size:1.15rem}
+  .cart-items{padding:4px 18px}
+  .cart-foot{padding:15px 18px calc(15px + env(safe-area-inset-bottom))}
+  .cart-empty .ce-ico{width:132px}
+  .cart-item{gap:12px;padding:13px 0}
+  .ci-img{width:56px;height:56px;border-radius:12px}
+  .ci-info b{font-size:.89rem}
+  .ci-var{font-size:.74rem}
+  .toast{bottom:80px}
+  .sabor-overlay{align-items:flex-end;padding:0}
+  .sabor-modal{max-height:92vh;border-radius:24px 24px 0 0}
+  .sabor-head{padding:20px 20px 15px}
+  .sabor-head h3{font-size:1.14rem}
+  .sabor-kicker{font-size:.68rem}
+  .sabor-search{padding:12px 20px}
+  .sabor-search input{font-size:16px}
+  .sabor-progress{padding:13px 20px}
+  .sp-top>span{font-size:.84rem}
+  .sabor-body{padding:18px 20px 24px}
+  .sabor-group-title{font-size:.94rem;margin:20px 0 11px}
+  .sabor-opt{font-size:.84rem;padding:9px 15px}
+  .mini-list{grid-template-columns:1fr;gap:7px}
+  .sabor-foot{padding:14px 20px 18px;gap:10px}
+  .sabor-chosen{font-size:.83rem}
+}
+
+/* móviles estrechos */
+@media(max-width:360px){
+  .carta-grid,.shake-row{grid-template-columns:1fr}
+  .hero-proof{grid-template-columns:1fr 1fr}
+}
+
+
+</style>
+<!-- DATOS ESTRUCTURADOS (JSON-LD) — le dicen a Google qué es este negocio, dónde está y qué vende. -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "Bakery",
+    "Store"
+   ],
+   "@id": "https://www.tartarachin.es/#negocio",
+   "name": "Tartarachin",
+   "alternateName": "Tartarachín",
+   "slogan": "Más vale tarta que nunca",
+   "description": "La única tienda especializada en tarta de queso de Algeciras. Tartas artesanas horneadas cada día en obrador propio, con más de 30 sabores que rotan cada semana, vasitos Caprichín, Tartarashakes y encargos por WhatsApp con 24 h de antelación.",
+   "url": "https://www.tartarachin.es/",
+   "telephone": "+34633744584",
+   "image": [
+    "https://www.tartarachin.es/img/fachada-tartarachin-algeciras.webp",
+    "https://www.tartarachin.es/img/interior-tienda-neon.webp",
+    "https://www.tartarachin.es/img/tarta-queso-artesana-hero.webp"
+   ],
+   "logo": "https://www.tartarachin.es/img/logo.webp",
+   "geo": {
+   "@type": "GeoCoordinates",
+   "latitude": 36.13798045,
+   "longitude": -5.45263980
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=36.13798045,-5.45263980",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle Fray Bartolomé",
+    "addressLocality": "Algeciras",
+    "addressRegion": "Cádiz",
+    "postalCode": "11202",
+    "addressCountry": "ES"
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "opens": "11:00",
+     "closes": "14:00"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "opens": "17:00",
+     "closes": "21:00"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "Sunday",
+     "opens": "11:00",
+     "closes": "14:00"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "Monday",
+     "opens": "00:00",
+     "closes": "00:00"
+    }
+   ],
+   "priceRange": "€€",
+   "currenciesAccepted": "EUR",
+   "paymentAccepted": "Efectivo, Tarjeta de crédito",
+   "servesCuisine": "Pastelería, Tarta de queso",
+   "hasMenu": {
+    "@id": "https://www.tartarachin.es/#carta"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Algeciras"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Campo de Gibraltar"
+    }
+   ],
+   "sameAs": [
+    "https://www.instagram.com/tartarachin16/",
+    "https://www.tiktok.com/@tartarachin16"
+   ],
+   "knowsLanguage": "es-ES",
+   "potentialAction": {
+    "@type": "OrderAction",
+    "target": {
+     "@type": "EntryPoint",
+     "urlTemplate": "https://wa.me/34633744584",
+     "actionPlatform": [
+      "https://schema.org/DesktopWebPlatform",
+      "https://schema.org/MobileWebPlatform"
+     ]
+    },
+    "deliveryMethod": "https://schema.org/OnSitePickup"
+   }
+  },
+  {
+   "@type": "Menu",
+   "@id": "https://www.tartarachin.es/#carta",
+   "name": "Carta de Tartarachin",
+   "inLanguage": "es-ES",
+   "hasMenuSection": [
+    {
+     "@type": "MenuSection",
+     "name": "Tartas de queso",
+     "description": "Tartas artesanas horneadas cada día en nuestro obrador, con más de 30 sabores que rotan cada semana.",
+     "hasMenuItem": [
+      {
+       "@type": "MenuItem",
+       "name": "Tarta entera",
+       "description": "10 porciones, de 1 o 2 sabores a elegir (mitad y mitad).",
+       "image": "https://www.tartarachin.es/img/tarta-queso-entera.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "30.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Rellenita · 15 cm",
+       "description": "Tarta de queso rellena por dentro de su sabor. Disponible en 8 sabores.",
+       "image": "https://www.tartarachin.es/img/tarta-extracremosa.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "8.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Extracremosa · 15 cm",
+       "description": "Menos horno, más crema: la versión más fundente, para comer con cuchara.",
+       "image": "https://www.tartarachin.es/img/tarta-extracremosa.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "8.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Porción individual",
+       "description": "Porción de tarta de queso en cajita para llevar.",
+       "image": "https://www.tartarachin.es/img/porcion-tarta-queso.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "3.20",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Tarta sin gluten",
+       "description": "Tarta de queso sin gluten de 10 porciones, por encargo.",
+       "image": "https://www.tartarachin.es/img/tarta-queso-entera.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "32.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Extracremosa sin gluten · 15 cm",
+       "description": "Versión extracremosa sin gluten, por encargo.",
+       "image": "https://www.tartarachin.es/img/tarta-extracremosa.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "28.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "MenuSection",
+     "name": "Minicheesecakes",
+     "description": "Cajas de minicheesecakes con los sabores que elija el cliente.",
+     "hasMenuItem": [
+      {
+       "@type": "MenuItem",
+       "name": "Minicheesecakes · caja de 9",
+       "description": "Nueve minicheesecakes con hasta 3 sabores distintos a elegir.",
+       "image": "https://www.tartarachin.es/img/minicheesecakes-caja-9.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "15.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Minicheesecakes · caja de 12",
+       "description": "Doce minicheesecakes con hasta 4 sabores distintos a elegir.",
+       "image": "https://www.tartarachin.es/img/minicheesecakes-caja-12.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "19.00",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "MenuSection",
+     "name": "Vasitos Caprichín",
+     "description": "Tarta de queso en formato vasito individual con tapa, también para hostelería.",
+     "hasMenuItem": [
+      {
+       "@type": "MenuItem",
+       "name": "Vasito Caprichín",
+       "description": "Tarta de queso artesana en vasito individual con tapa, listo para llevar.",
+       "image": "https://www.tartarachin.es/img/vasitos-caprichin.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "3.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      }
+     ]
+    },
+    {
+     "@type": "MenuSection",
+     "name": "Tartarashakes",
+     "description": "Batidos hechos con nuestra tarta de queso, coronados de nata y toppings.",
+     "hasMenuItem": [
+      {
+       "@type": "MenuItem",
+       "name": "Tartarashake Lotus",
+       "description": "Batido de tarta de queso con galleta caramelizada Lotus.",
+       "image": "https://www.tartarachin.es/img/tartarashake-lotus.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "5.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Tartarashake Oreo",
+       "description": "Batido de tarta de queso estilo cookies & cream.",
+       "image": "https://www.tartarachin.es/img/tartarashake-oreo.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "5.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Tartarashake Fresa",
+       "description": "Batido de tarta de queso con fresa y nata montada.",
+       "image": "https://www.tartarachin.es/img/tartarashake-fresa.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "5.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Tartarashake Kinder",
+       "description": "Batido de tarta de queso con chocolate con leche.",
+       "image": "https://www.tartarachin.es/img/tartarashake-kinder.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "5.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      },
+      {
+       "@type": "MenuItem",
+       "name": "Tartarashake Café",
+       "description": "Batido de tarta de queso estilo frappé de café.",
+       "image": "https://www.tartarachin.es/img/tartarashake-cafe.webp",
+       "offers": {
+        "@type": "Offer",
+        "price": "5.50",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://www.tartarachin.es/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "¿Con cuánta antelación tengo que encargar una tarta entera?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Lo ideal es 24–48 horas de antelación por WhatsApp o teléfono. Para fechas señaladas (San Valentín, Navidad, Semana de la Tarta de Queso) te recomendamos reservar con más margen: se agotan."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Hacéis tartas personalizadas para cumpleaños y eventos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sí. Podemos añadir dedicatorias, decoraciones especiales y preparar packs de vasitos Caprichín o minicheesecakes para bodas, comuniones y eventos de empresa. Cuéntanos tu idea y te pasamos presupuesto."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Tenéis opciones sin gluten o para alérgenos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sí: por encargo elaboramos tartas sin gluten de 10 porciones y extracremosas de 15 cm — pregúntanos por los sabores disponibles. Eso sí, nuestro obrador también trabaja con harinas, huevo, lácteos y frutos secos, así que si tienes celiaquía o alergias cuéntanoslo al encargar y te informaremos con detalle."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "¿Se puede comer allí o es solo para llevar?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nuestra tienda es principalmente para llevar: porciones en cajita, vasitos y Tartarashakes listos para pasear. Y si no puedes esperar… nadie te juzgará por empezar en la puerta."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Tengo un bar o restaurante, ¿puedo servir vuestros postres?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "¡Claro! Nuestros vasitos Caprichín ya se sirven en locales de Algeciras. Escríbenos por WhatsApp y te contamos condiciones para hostelería."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://www.tartarachin.es/#web",
+   "url": "https://www.tartarachin.es/",
+   "name": "Tartarachin",
+   "inLanguage": "es-ES",
+   "publisher": {
+    "@id": "https://www.tartarachin.es/#negocio"
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#carta">Saltar al contenido</a>
+
+<div class="progress" id="progress"></div>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <div class="topbar">
+    <div class="wrap">
+      <span>🍰 <b>Encargos con 24 h</b> · <a href="tel:+34633744584">633 744 584</a></span>
+      <span class="hide-sm">Mar–Sáb 11:00–14:00 · 17:00–21:00 &nbsp;·&nbsp; Dom 11:00–14:00</span>
+      <span class="hide-sm"><b>Recogida en tienda</b> · Frente al Juzgado</span>
+    </div>
+  </div>
+  <div class="wrap nav">
+    <a href="#" class="logo">
+      <img class="logo-img" src="img/logo.webp" alt="Logo Tartarachin — Date el capricho" width="150" height="150" decoding="async">
+      <span class="logo-text"><b>Tartarachin</b><small>Date el capricho</small></span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#shakes">Tartarashakes<span class="nav-new">Nuevo</span></a></li>
+      <li><a href="#carta">La carta</a></li>
+      <li><a href="#caprichin">Caprichín</a></li>
+      <li><a href="#encargos">Encargos</a></li>
+      <li><a href="#historia">Nosotros</a></li>
+      <li><a href="#visita">Visítanos</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="cart-btn" id="cartBtn" aria-label="Ver mi pedido">
+        <svg viewBox="0 0 24 24"><path d="M6.2 7.5h11.6l1.1 12a1.5 1.5 0 0 1-1.5 1.6H6.6a1.5 1.5 0 0 1-1.5-1.6z"/><path d="M9 7.5V6a3 3 0 0 1 6 0v1.5"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <a class="btn btn-primary" href="https://wa.me/34633744584" target="_blank" rel="noopener">Encargar ahora</a>
+      <button class="burger" id="burger" aria-expanded="false" aria-controls="navLinks" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-blob blob-1"></div>
+  <div class="hero-blob blob-2"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-kicker">📍 Algeciras · Frente al Juzgado &nbsp;·&nbsp; <b>+13.600 golosos nos siguen</b></div>
+      <h1>Las famosas tartas de queso de Algeciras.<br><em>Más vale tarta que nunca.</em></h1>
+      <p class="hero-sub">La única tienda especializada en tarta de queso del Campo de Gibraltar. Horneadas cada día en nuestro obrador, cremosas hasta decir basta y con sabores que cambian cada semana.</p>
+      <div class="hero-actions">
+        <a class="btn btn-lila" href="#carta">Ver la carta 🍰</a>
+        <a class="btn btn-ghost" href="https://wa.me/34633744584" target="_blank" rel="noopener">Encargar por WhatsApp</a>
+      </div>
+      <div class="hero-proof">
+        <div class="proof"><b>+30</b><span>sabores artesanos</span></div>
+        <div class="proof"><b>100%</b><span>obrador propio</span></div>
+        <div class="proof"><b>24 h</b><span>encargos exprés</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="ph has-img">
+          <img class="real" src="img/tarta-queso-artesana-hero.webp" alt="Tarta de queso artesana de Tartarachin recién cortada" width="1122" height="1402" decoding="async" fetchpriority="high">
+        </div>
+      </div>
+      <div class="float-chip chip-1">
+        <div class="fc-ico">⭐</div>
+        <div><b>“La mejor de la zona”</b><small>Opiniones de clientes</small></div>
+      </div>
+      <div class="float-chip chip-2">
+        <div class="fc-ico">🧀</div>
+        <div><b>Recién horneadas</b><small>Cada día en el obrador</small></div>
+      </div>
+      <div class="float-chip chip-3">
+        <div class="fc-ico">💜</div>
+        <div><b>Semana lila</b><small>Promos del Día Mundial</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+    <span>Date el capricho</span><span>Más vale tarta que nunca</span><span>Disfruta comiéndotela</span><span>Tarta de queso artesana</span><span>Hecha en Algeciras</span>
+  </div>
+</div>
+
+<!-- ===== CONFIANZA ===== -->
+<div class="trust">
+  <div class="wrap">
+    <div class="trust-item"><span class="t-ico">⭐</span><span><b>4,7/5</b> valoración en Google</span></div>
+    <div class="trust-item"><span class="t-ico">📰</span><span>Vistos en <b>Europa Sur</b></span></div>
+    <div class="trust-item"><span class="t-ico">🎥</span><span><b>Virales</b> en TikTok</span></div>
+    <div class="trust-item"><span class="t-ico">🏆</span><span><b>La única</b> tienda especializada de la comarca</span></div>
+  </div>
+</div>
+
+<!-- ===== VALOR ===== -->
+<section class="value">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Por qué Tartarachin</div>
+      <h2 class="section-title">Especialistas en una sola cosa:<br><em>hacerla perfecta</em></h2>
+      <p class="section-sub">No hacemos de todo. Hacemos tarta de queso. Y esa obsesión se nota en cada porción.</p>
+    </div>
+    <div class="value-grid">
+      <div class="value-card reveal">
+        <div class="value-ico">🥣</div>
+        <h3>Obrador propio, cada día</h3>
+        <p>Todas nuestras tartas se elaboran a diario en nuestro obrador de Algeciras, con queso de primera y hornos que no descansan. Nada de congelados ni distribuidores.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-ico">🎨</div>
+        <h3>Sabores que rotan</h3>
+        <p>Red Velvet, Lotus, pistacho, Kinder Bueno, tarta de la abuela… más de 30 sabores que rotan cada semana. Síguenos en Instagram para no perderte el del momento.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="value-ico">🎁</div>
+        <h3>Encargos para lo que celebres</h3>
+        <p>Cumpleaños, eventos, empresas o simplemente un martes difícil. Encarga tu tarta entera con 24 h y la tienes lista para recoger en tienda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHAKES (NOVEDAD) ===== -->
+<section class="shakes" id="shakes">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Novedad · Tartarashakes</div>
+      <h2 class="section-title">¿Y si tu tarta favorita <em>se pudiera beber?</em></h2>
+      <p class="section-sub">Lo último de Tartarachin y lo que está arrasando este verano: batidos cremosos hechos con nuestra tarta de queso, coronados de nata y toppings. Y el 2x1 que triunfó el año pasado… está de vuelta.</p>
+    </div>
+    <div class="shake-row">
+      <div class="shake s1 reveal">
+        <div class="shake-img"><img src="img/tartarashake-lotus.webp" alt="Tartarashake de Lotus" width="800" height="533" decoding="async" loading="lazy"></div>
+        <b>Lotus</b><span>Galleta caramelizada</span>
+        <span class="shake-price">5,50 €</span>
+        <button class="add-btn" data-item="Tartarashake Lotus" data-price="5.50">Añadir al pedido</button>
+      </div>
+      <div class="shake s2 reveal">
+        <div class="shake-img"><img src="img/tartarashake-oreo.webp" alt="Tartarashake de Oreo" width="800" height="532" decoding="async" loading="lazy"></div>
+        <b>Oreo</b><span>Cookies &amp; cream</span>
+        <span class="shake-price">5,50 €</span>
+        <button class="add-btn" data-item="Tartarashake Oreo" data-price="5.50">Añadir al pedido</button>
+      </div>
+      <div class="shake s3 reveal">
+        <div class="shake-img"><img src="img/tartarashake-fresa.webp" alt="Tartarashake de fresa" width="800" height="533" decoding="async" loading="lazy"></div>
+        <b>Fresa</b><span>Con nata montada</span>
+        <span class="shake-price">5,50 €</span>
+        <button class="add-btn" data-item="Tartarashake Fresa" data-price="5.50">Añadir al pedido</button>
+      </div>
+      <div class="shake s4 reveal">
+        <div class="shake-img"><img src="img/tartarashake-kinder.webp" alt="Tartarashake de Kinder" width="800" height="533" decoding="async" loading="lazy"></div>
+        <b>Kinder</b><span>Chocolate con leche</span>
+        <span class="shake-price">5,50 €</span>
+        <button class="add-btn" data-item="Tartarashake Kinder" data-price="5.50">Añadir al pedido</button>
+      </div>
+      <div class="shake s5 reveal">
+        <div class="shake-img"><img src="img/tartarashake-cafe.webp" alt="Tartarashake de café" width="800" height="533" decoding="async" loading="lazy"></div>
+        <b>Café</b><span>Estilo frappé</span>
+        <span class="shake-price">5,50 €</span>
+        <button class="add-btn" data-item="Tartarashake Café" data-price="5.50">Añadir al pedido</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CARTA ===== -->
+<section class="carta" id="carta">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">La carta</div>
+      <h2 class="section-title">Elige tu formato, elige tu <em>capricho</em></h2>
+      <p class="section-sub">Así funciona Tartarachin: eliges el formato y lo pides en el sabor que quieras. Más de 30 sabores artesanos que rotan cada semana.</p>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="formatos">Formatos y precios</button>
+      <button class="tab" data-tab="sabores">Nuestros sabores</button>
+      <button class="tab" data-tab="singluten">Sin gluten</button>
+    </div>
+
+    <div class="carta-panel active" id="panel-formatos">
+      <div class="carta-grid">
+        <article class="dish reveal" data-flavors="all" data-max="2">
+          <div class="ph has-img"><img class="real" src="img/tarta-queso-entera.webp" alt="Tarta de queso entera de Tartarachin" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Tarta entera</h3><span class="price">30 €</span></div>
+            <p>10 porciones, de 1 o 2 sabores a elegir (mitad y mitad). La reina de los cumpleaños y celebraciones.</p>
+            <span class="badge pop">La estrella</span>
+          </div>
+        </article>
+        <article class="dish reveal" data-flavors="rellenitas" data-max="1">
+          <div class="ph has-img"><img class="real" src="img/tarta-extracremosa.webp" alt="Tarta Rellenita de 15 cm de Tartarachin en su envase" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Rellenita · 15 cm</h3><span class="price">8 €</span></div>
+            <p>Nuestra tarta con sorpresa: rellena por dentro de su sabor. Elige uno de nuestros 8 sabores más golosos.</p>
+            <span class="badge">Muy golosa</span>
+          </div>
+        </article>
+        <article class="dish reveal" data-flavors="all" data-max="1">
+          <div class="ph has-img"><img class="real" src="img/tarta-extracremosa.webp" alt="Tarta extracremosa de Tartarachin en su envase" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Extracremosa · 15 cm</h3><span class="price">8 €</span></div>
+            <p>Menos horno, más crema: nuestra versión más fundente, para comer con cuchara. De un solo sabor.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-flavors="all">
+          <div class="ph has-img"><img class="real" src="img/porcion-tarta-queso.webp" alt="Porción de tarta de queso para llevar" width="900" height="720" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Porción individual</h3><span class="price">3,20 €</span></div>
+            <p>El capricho rápido: tu porción en cajita para llevar, del sabor que haya en el mostrador o por encargo.</p>
+            <span class="badge pop">Para llevar</span>
+          </div>
+        </article>
+        <article class="dish reveal" data-flavors="all" data-units="9" data-distinct="3">
+          <div class="ph has-img"><img class="real" src="img/minicheesecakes-caja-9.webp" alt="Caja de 9 minicheesecakes" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Minicheesecakes · caja de 9</h3><span class="price">15 €</span></div>
+            <p>Nueve minis y tú montas la caja: elige hasta 3 sabores y reparte las unidades como quieras.</p>
+          </div>
+        </article>
+        <article class="dish reveal" data-flavors="all" data-units="12" data-distinct="4">
+          <div class="ph has-img"><img class="real" src="img/minicheesecakes-caja-12.webp" alt="Caja de 12 minicheesecakes" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Minicheesecakes · caja de 12</h3><span class="price">19 €</span></div>
+            <p>Doce minis con hasta 4 sabores a repartir. El detalle perfecto para regalar o para reuniones.</p>
+            <span class="badge">Para compartir</span>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="carta-panel" id="panel-sabores">
+      <div class="sabores-box reveal">
+        <h3 class="sab-title">Los de siempre</h3>
+        <div class="flavor-cloud" data-cloud="clasicos"></div>
+        <h3 class="sab-title">Con mermelada y chocolate blanco</h3>
+        <div class="flavor-cloud" data-cloud="mermeladas"></div>
+        <h3 class="sab-title">Especiales <small>· según disponibilidad</small></h3>
+        <div class="flavor-cloud" data-cloud="especiales"></div>
+        <div class="rellenitas-note">💜 <b>¿La conoces en versión Rellenita?</b> Rellena por dentro de su sabor, disponible en: Kinder, Kinder Bueno Blanco, Oreo, Pistacho, Red Velvet, Happy Hippo, Lotus y Milkybar.</div>
+      </div>
+    </div>
+
+    <div class="carta-panel" id="panel-singluten">
+      <div class="carta-grid">
+        <article class="dish reveal">
+          <div class="ph has-img"><img class="real" src="img/tarta-queso-entera.webp" alt="Tarta de queso sin gluten" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Tarta sin gluten</h3><span class="price">32 €</span></div>
+            <p>10 porciones, elaborada por encargo. Pregúntanos por los sabores disponibles sin gluten.</p>
+            <span class="badge">Por encargo</span>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="ph has-img"><img class="real" src="img/tarta-extracremosa.webp" alt="Tarta extracremosa sin gluten" width="1000" height="666" decoding="async" loading="lazy"></div>
+          <div class="dish-body">
+            <div class="dish-top"><h3>Extracremosa sin gluten · 15 cm</h3><span class="price">28 €</span></div>
+            <p>La fundente, también sin gluten y por encargo. Consulta los sabores de esta semana.</p>
+            <span class="badge">Por encargo</span>
+          </div>
+        </article>
+        <article class="dish reveal">
+          <div class="dish-body">
+            <div class="dish-top"><h3>Importante 💜</h3></div>
+            <p>Nuestras opciones sin gluten se elaboran con todo el cuidado, pero el obrador también trabaja con harinas, huevo, lácteos y frutos secos. Si tienes celiaquía o alergias, cuéntanoslo al encargar y te informamos con detalle.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <p class="carta-note">* Precios orientativos — confírmalos al hacer tu encargo. Los sabores rotan según temporada: consulta el mostrador o nuestro Instagram <a href="https://www.instagram.com/tartarachin16/" target="_blank" rel="noopener" style="color:var(--lila);font-weight:600">@tartarachin16</a>.</p>
+  </div>
+</section>
+
+<!-- ===== CAPRICHIN ===== -->
+<section class="caprichin" id="caprichin">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="eyebrow">Caprichín · Para hostelería y eventos</div>
+      <h2 class="section-title">El postre que tu carta <em>estaba pidiendo</em></h2>
+      <ul class="cap-list">
+        <li>
+          <span class="dot">🍽️</span>
+          <div><b>Para bares y restaurantes</b><p>Caprichín ya se sirve como postre en locales de Algeciras, como La Casita. Formato individual con tapa: sin mermas, sin preparación, listo para emplatar.</p></div>
+        </li>
+        <li>
+          <span class="dot">🥄</span>
+          <div><b>Calidad de obrador, cada semana</b><p>Toda la cremosidad de nuestra tarta artesana en vasito, con reparto y sabores rotativos para que tu carta nunca aburra.</p></div>
+        </li>
+        <li>
+          <span class="dot">🎉</span>
+          <div><b>Packs para eventos</b><p>Bodas, comuniones y celebraciones de empresa: vasitos personalizados con tu etiqueta. Pide presupuesto sin compromiso.</p></div>
+        </li>
+      </ul>
+      <a class="btn btn-lila" href="https://wa.me/34633744584?text=Hola%2C%20me%20interesa%20Caprich%C3%ADn%20para%20mi%20local%2Fevento" target="_blank" rel="noopener">Quiero Caprichín en mi local o evento</a>
+    </div>
+    <div class="reveal">
+      <div class="ph has-img">
+        <img class="real" src="img/vasitos-caprichin.webp" alt="Vasitos Caprichín de Tartarachin con tapa lila sobre mármol" width="1100" height="1374" decoding="async" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ENCARGOS ===== -->
+<section class="pasos" id="encargos">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Encargos</div>
+      <h2 class="section-title">Tu tarta entera en <em>3 pasos</em></h2>
+      <p class="section-sub">Cumpleaños, celebraciones o antojos de nivel profesional. Así de fácil:</p>
+    </div>
+    <div class="pasos-grid">
+      <div class="paso reveal">
+        <h3>Elige tu sabor</h3>
+        <p>Echa un ojo a la carta o a nuestro Instagram y decide: ¿clásica, Lotus, pistacho…? También hacemos tartas personalizadas con dedicatoria.</p>
+      </div>
+      <div class="paso reveal">
+        <h3>Escríbenos o llámanos</h3>
+        <p>Por WhatsApp o al 633 744 584. Dinos sabor, tamaño y fecha. Con 24–48 h de antelación tu tarta estará garantizada.</p>
+      </div>
+      <div class="paso reveal">
+        <h3>Recógela en tienda</h3>
+        <p>Te esperamos en Calle Fray Bartolomé, frente al Juzgado. Tu tarta saldrá del obrador ese mismo día, en su caja y lista para triunfar.</p>
+      </div>
+    </div>
+    <div class="pasos-cta reveal">
+      <a class="btn btn-lila" href="https://wa.me/34633744584?text=Hola%2C%20quiero%20encargar%20una%20tarta%20%F0%9F%8D%B0" target="_blank" rel="noopener">Encargar por WhatsApp</a>
+      <a class="btn btn-ghost" href="tel:+34633744584">Llamar · 633 744 584</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HISTORIA ===== -->
+<section class="historia" id="historia">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="ph has-img">
+        <img class="real" src="img/interior-tienda-neon.webp" alt="Interior de la tienda Tartarachin con el neón Disfruta comiéndotela" width="1100" height="1320" decoding="async" loading="lazy">
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="eyebrow">Nuestra historia</div>
+      <h2 class="section-title">De un antojo a la tienda lila <em>más querida de Algeciras</em></h2>
+      <blockquote class="quote">"Empezamos haciendo tartas para amigos. Hoy no damos abasto — y seguimos haciéndolas exactamente igual: a mano, con queso de verdad y sin prisas."</blockquote>
+      <p class="body">Tartarachin nació como un pequeño obrador familiar con una idea muy clara: en Algeciras faltaba un sitio dedicado en cuerpo y alma a la tarta de queso. Ni pastelería genérica, ni franquicia: una casa de la cheesecake.</p>
+      <p class="body">Hoy somos la única tienda especializada en tarta de queso de la ciudad, con una comunidad de más de 13.600 personas que celebra con nosotros cada sabor nuevo, cada sorteo y cada Semana Mundial de la Tarta de Queso.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OPINIONES ===== -->
+<section class="reviews">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Opiniones</div>
+      <h2 class="section-title">Algeciras se rinde <em>al capricho</em></h2>
+    </div>
+    <div class="rating-banner reveal">
+      <svg class="gicon" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7v3h3.9c2.3-2.1 3.5-5.3 3.5-8.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-2.9l-3.9-3c-1.1.7-2.5 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.3v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.3 14.3c-.2-.7-.4-1.5-.4-2.3s.1-1.6.4-2.3V6.6H1.3C.5 8.2 0 10 0 12s.5 3.8 1.3 5.4l4-3.1z"/><path fill="#EA4335" d="M12 4.7c1.8 0 3.3.6 4.6 1.8l3.4-3.4C18 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.3 6.6l4 3.1c.9-2.9 3.6-5 6.7-5z"/></svg>
+      <div class="rating-num">4,7</div>
+      <div class="rating-info">
+        <div class="stars">★★★★★</div>
+        <span>Valoración media en <b>Google Maps</b></span>
+      </div>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Tartarachin+Algeciras" target="_blank" rel="noopener">Ver todas las reseñas</a>
+    </div>
+    <div class="rev-grid">
+      <figure class="rev reveal">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <span class="sr-only">5 de 5 estrellas</span>
+        <blockquote><p>“Gran variedad de tartas de queso, desde porciones pequeñas sencillas, hasta más grandes y rellenas. Hasta ahora, todas las que he probado (que no son pocas), están muy buenas.”</p></blockquote>
+        <figcaption class="rev-meta">
+          <div class="rev-author">
+            <div class="rev-avatar" style="background:var(--lila)" aria-hidden="true">F</div>
+            <div><b>FDDG</b><small>Local Guide · 301 reseñas · hace 5 meses</small></div>
+          </div>
+          <div class="rev-google"><svg class="gicon" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7v3h3.9c2.3-2.1 3.5-5.3 3.5-8.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-2.9l-3.9-3c-1.1.7-2.5 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.3v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.3 14.3c-.2-.7-.4-1.5-.4-2.3s.1-1.6.4-2.3V6.6H1.3C.5 8.2 0 10 0 12s.5 3.8 1.3 5.4l4-3.1z"/><path fill="#EA4335" d="M12 4.7c1.8 0 3.3.6 4.6 1.8l3.4-3.4C18 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.3 6.6l4 3.1c.9-2.9 3.6-5 6.7-5z"/></svg><span>Reseña en<br><b>Google Maps</b></span></div>
+        </figcaption>
+      </figure>
+      <figure class="rev reveal">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <span class="sr-only">5 de 5 estrellas</span>
+        <blockquote><p>“Los chicos son todos un amor, siempre nos tratan de 10 (…) se nota que sus dueños le ponen amor y dedicación a todo. La textura, el sabor, los toppings, todo increíble. Un trabajo de 100000, repetimos una y otra vez.”</p></blockquote>
+        <figcaption class="rev-meta">
+          <div class="rev-author">
+            <div class="rev-avatar" style="background:var(--fresa)" aria-hidden="true">R</div>
+            <div><b>Rocío Sanmartín</b><small>7 reseñas · hace 3 meses</small></div>
+          </div>
+          <div class="rev-google"><svg class="gicon" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7v3h3.9c2.3-2.1 3.5-5.3 3.5-8.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-2.9l-3.9-3c-1.1.7-2.5 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.3v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.3 14.3c-.2-.7-.4-1.5-.4-2.3s.1-1.6.4-2.3V6.6H1.3C.5 8.2 0 10 0 12s.5 3.8 1.3 5.4l4-3.1z"/><path fill="#EA4335" d="M12 4.7c1.8 0 3.3.6 4.6 1.8l3.4-3.4C18 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.3 6.6l4 3.1c.9-2.9 3.6-5 6.7-5z"/></svg><span>Reseña en<br><b>Google Maps</b></span></div>
+        </figcaption>
+      </figure>
+      <figure class="rev reveal">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <span class="sr-only">5 de 5 estrellas</span>
+        <blockquote><p>“Unas tartas espectaculares, muy buenas cualquier tipo que se elija, muy buena atención al cliente… ¡Enhorabuena! Seguid así de bien.”</p></blockquote>
+        <figcaption class="rev-meta">
+          <div class="rev-author">
+            <div class="rev-avatar" style="background:var(--biscuit)" aria-hidden="true">M</div>
+            <div><b>María</b><small>8 reseñas · hace 7 meses</small></div>
+          </div>
+          <div class="rev-google"><svg class="gicon" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7v3h3.9c2.3-2.1 3.5-5.3 3.5-8.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-2.9l-3.9-3c-1.1.7-2.5 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.3v3.1C3.3 21.3 7.3 24 12 24z"/><path fill="#FBBC05" d="M5.3 14.3c-.2-.7-.4-1.5-.4-2.3s.1-1.6.4-2.3V6.6H1.3C.5 8.2 0 10 0 12s.5 3.8 1.3 5.4l4-3.1z"/><path fill="#EA4335" d="M12 4.7c1.8 0 3.3.6 4.6 1.8l3.4-3.4C18 1.2 15.2 0 12 0 7.3 0 3.3 2.7 1.3 6.6l4 3.1c.9-2.9 3.6-5 6.7-5z"/></svg><span>Reseña en<br><b>Google Maps</b></span></div>
+        </figcaption>
+      </figure>
+    </div>
+    <p class="carta-note">Reseñas reales publicadas por clientes en el perfil de <a href="https://www.google.com/maps/search/?api=1&amp;query=Tartarachin+Algeciras" target="_blank" rel="noopener" style="color:var(--lila);font-weight:600">Google Maps de Tartarachin</a>.</p>
+  </div>
+</section>
+
+<!-- ===== VISITA ===== -->
+<section id="visita">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Visítanos</div>
+      <h2 class="section-title">Frente al Juzgado, <em>imposible perderse</em></h2>
+    </div>
+    <div class="visita-grid">
+      <div class="info-card reveal">
+        <div class="info-row">
+          <div class="info-ico">📍</div>
+          <div>
+            <b>Calle Fray Bartolomé — frente al Juzgado</b>
+            <p>11202 Algeciras, Cádiz · <a href="https://www.google.com/maps/search/?api=1&query=Tartarachin+Algeciras" target="_blank" rel="noopener" style="color:var(--lila);font-weight:600">Cómo llegar →</a></p>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-ico">🕚</div>
+          <div style="flex:1">
+            <b>Horario</b>
+            <table class="hours">
+              <tr><td>Lunes</td><td>Cerrado</td></tr>
+              <tr><td>Martes – Sábado</td><td>11:00–14:00 · 17:00–21:00</td></tr>
+              <tr><td>Domingo</td><td>11:00–14:00</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-ico">📞</div>
+          <div>
+            <b>Contacto</b>
+            <p><a href="tel:+34633744584" style="text-decoration:none">633 744 584</a> · <a href="https://wa.me/34633744584" target="_blank" rel="noopener" style="text-decoration:none">WhatsApp directo</a></p>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-ico">💜</div>
+          <div>
+            <b>Síguenos</b>
+            <p><a href="https://www.instagram.com/tartarachin16/" target="_blank" rel="noopener" style="text-decoration:none">Instagram @tartarachin16</a> · <a href="https://www.tiktok.com/@tartarachin16" target="_blank" rel="noopener" style="text-decoration:none">TikTok @tartarachin16</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" style="display:flex;flex-direction:column;gap:22px">
+        <div class="ph has-img" style="aspect-ratio:4/3;box-shadow:var(--shadow-soft)">
+          <img class="real" src="img/fachada-tartarachin-algeciras.webp" alt="Fachada lila de la tienda Tartarachin en Algeciras" width="1200" height="900" decoding="async" loading="lazy">
+        </div>
+        <div class="mapa" id="mapaWrap" style="min-height:240px;flex:1">
+          <div class="mapa-consent" id="mapaConsent">
+            <span class="mapa-ico" aria-hidden="true">🗺️</span>
+            <b>Mapa de Google</b>
+            <p>Al cargar el mapa, Google recibe tu dirección IP y puede instalar cookies en tu dispositivo.</p>
+            <button type="button" class="btn btn-lila" id="mapaLoad">Cargar el mapa</button>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Tartarachin+Algeciras" target="_blank" rel="noopener">o abrir en Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <div class="eyebrow" style="justify-content:center">Preguntas frecuentes</div>
+      <h2 class="section-title">Antes de darte <em>el capricho</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <h3 class="faq-h"><button class="faq-q" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">¿Con cuánta antelación tengo que encargar una tarta entera?<span class="plus" aria-hidden="true">+</span></button></h3><div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1"><p>Lo ideal es 24–48 horas de antelación por WhatsApp o teléfono. Para fechas señaladas (San Valentín, Navidad, Semana de la Tarta de Queso) te recomendamos reservar con más margen: se agotan.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3 class="faq-h"><button class="faq-q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">¿Hacéis tartas personalizadas para cumpleaños y eventos?<span class="plus" aria-hidden="true">+</span></button></h3><div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2"><p>Sí. Podemos añadir dedicatorias, decoraciones especiales y preparar packs de vasitos Caprichín o minicheesecakes para bodas, comuniones y eventos de empresa. Cuéntanos tu idea y te pasamos presupuesto.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3 class="faq-h"><button class="faq-q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">¿Tenéis opciones sin gluten o para alérgenos?<span class="plus" aria-hidden="true">+</span></button></h3><div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3"><p>Sí: por encargo elaboramos tartas sin gluten de 10 porciones y extracremosas de 15 cm — pregúntanos por los sabores disponibles. Eso sí, nuestro obrador también trabaja con harinas, huevo, lácteos y frutos secos, así que si tienes celiaquía o alergias cuéntanoslo al encargar y te informaremos con detalle.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3 class="faq-h"><button class="faq-q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">¿Se puede comer allí o es solo para llevar?<span class="plus" aria-hidden="true">+</span></button></h3><div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4"><p>Nuestra tienda es principalmente para llevar: porciones en cajita, vasitos y Tartarashakes listos para pasear. Y si no puedes esperar… nadie te juzgará por empezar en la puerta.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <h3 class="faq-h"><button class="faq-q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">Tengo un bar o restaurante, ¿puedo servir vuestros postres?<span class="plus" aria-hidden="true">+</span></button></h3><div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5"><p>¡Claro! Nuestros vasitos Caprichín ya se sirven en locales de Algeciras. Escríbenos por WhatsApp y te contamos condiciones para hostelería.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INSTAGRAM ===== -->
+<section class="insta">
+  <div class="wrap">
+    <div class="sec-head center reveal" style="margin-bottom:0">
+      <div class="eyebrow" style="justify-content:center">Instagram</div>
+      <h2 class="section-title">Cada día, algo nuevo en <em>@tartarachin16</em></h2>
+      <p class="section-sub">Sabores de la semana, promos, sorteos y mucho lila. Únete a los +13.600 golosos que no se pierden nada.</p>
+    </div>
+    <div class="insta-grid reveal">
+      <a class="insta-item" href="https://www.instagram.com/p/DY6xGU6CB7I/?img_index=1" target="_blank" rel="noopener"><img src="img/ig-1-tarta-mitad-kinder-mitad-pistacho.webp" alt="Tarta de queso de Tartarachin en su caja, mitad Kinder Bueno blanco y mitad pistacho" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+      <a class="insta-item" href="https://www.instagram.com/p/DKEqoagMful/" target="_blank" rel="noopener"><img src="img/ig-2-cliente-probando-tarta-pistacho.webp" alt="Cliente probando una tarta de queso de pistacho dentro de la tienda Tartarachin de Algeciras" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+      <a class="insta-item" href="https://www.instagram.com/p/DHWCI_JInW3/" target="_blank" rel="noopener"><img src="img/ig-3-tarta-lotus-chocolate-blanco.webp" alt="Cucharada de tarta de queso cremosa con galleta Lotus y chocolate blanco" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+      <a class="insta-item" href="https://www.instagram.com/p/DK_174jMuPo/" target="_blank" rel="noopener"><img src="img/ig-4-cajas-minicheesecakes-tienda.webp" alt="Dependienta de Tartarachin con dos cajas de minicheesecakes bajo el neón Disfruta comiéndotela" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+      <a class="insta-item" href="https://www.instagram.com/p/DZMcjMnIg25/" target="_blank" rel="noopener"><img src="img/ig-5-tartarashakes-sabores.webp" alt="Los ocho sabores de Tartarashake de Tartarachin en fila sobre fondo lila" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+      <a class="insta-item" href="https://www.instagram.com/p/Da-11L7N0Wb/" target="_blank" rel="noopener"><img src="img/ig-6-tarta-chocolate-pistacho-para-llevar.webp" alt="Pareja sujetando una caja con media tarta de chocolate y media de pistacho" width="600" height="600" decoding="async" loading="lazy"><div class="insta-ov"><span class="ig-badge"><svg viewBox="0 0 24 24"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5.2"/><circle cx="12" cy="12" r="4.1"/><circle cx="17.2" cy="6.8" r="1" fill="#fff" stroke="none"/></svg></span><span>Ver más…</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA FINAL ===== -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta-final reveal">
+      <h2>Hoy es un buen día para<br><em>darte el capricho</em></h2>
+      <p>Pásate por la tienda, pide tu porción favorita o encarga tu tarta entera. Te esperamos con el horno encendido.</p>
+      <a class="btn btn-lila" href="https://wa.me/34633744584?text=Hola%2C%20quiero%20darme%20el%20capricho%20%F0%9F%92%9C" target="_blank" rel="noopener">Escribir por WhatsApp 💜</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#" class="logo">
+          <img class="logo-img" src="img/logo.webp" alt="Logo Tartarachin" width="150" height="150" decoding="async" loading="lazy">
+          <span class="logo-text"><b style="color:#fff">Tartarachin</b><small>Date el capricho</small></span>
+        </a>
+        <p>La única tienda especializada en tarta de queso de Algeciras. Artesanas, cremosas y hechas cada día en nuestro obrador.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/tartarachin16/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.3.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1.1.4 2.3.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.3-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1.1.4-2.3.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.3-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1.1-.4-2.3C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.3.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1.1-.4 2.3-.4 1.3-.1 1.7-.1 4.9-.1m0 3.6a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4m0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8m6.4-10.4a1.4 1.4 0 1 1-2.8 0 1.4 1.4 0 0 1 2.8 0"/></svg></a>
+          <a href="https://www.tiktok.com/@tartarachin16" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 3c.4 2.1 1.8 3.6 3.9 3.9v3c-1.5 0-2.8-.5-3.9-1.3v6.1c0 3.5-2.4 5.8-5.6 5.8-3 0-5.5-2.4-5.5-5.5 0-3.3 3-5.9 6.5-5.3v3.1c-.4-.1-.8-.2-1.2-.2-1.4 0-2.5 1.1-2.5 2.5s1.1 2.5 2.5 2.5c1.5 0 2.6-1.1 2.6-2.8V3h3.2z"/></svg></a>
+          <a href="https://wa.me/34633744584" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 2.9C8.8 2.9 3 8.7 3 15.9c0 2.3.6 4.5 1.7 6.5L3 29.1l6.9-1.8c1.9 1 4 1.6 6.1 1.6 7.2 0 13-5.8 13-13S23.2 2.9 16 2.9zm0 23.7c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.1 1.1-4l-.3-.4c-1.1-1.7-1.6-3.7-1.6-5.7 0-5.9 4.8-10.7 10.7-10.7s10.7 4.8 10.7 10.7-4.8 10.7-10.7 10.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>La carta</h4>
+        <ul>
+          <li><a href="#carta">Tartas enteras</a></li>
+          <li><a href="#carta">Porciones</a></li>
+          <li><a href="#caprichin">Caprichín</a></li>
+          <li><a href="#shakes">Tartarashakes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tartarachin</h4>
+        <ul>
+          <li><a href="#historia">Nuestra historia</a></li>
+          <li><a href="#encargos">Encargos</a></li>
+          <li><a href="#visita">Dónde estamos</a></li>
+          <li><a href="#carta">Promociones</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto y horario</h4>
+        <ul>
+          <li><a href="tel:+34633744584">633 744 584</a></li>
+          <li><a href="https://wa.me/34633744584" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query=Tartarachin+Algeciras" target="_blank" rel="noopener">C/ Fray Bartolomé, Algeciras</a></li>
+        </ul>
+        <p class="foot-hours" style="margin-top:14px"><b>Mar–Sáb</b> 11–14 · 17–21<br><b>Dom</b> 11–14 · <b>Lun</b> cerrado</p>
+      </div>
+    </div>
+    <nav class="foot-legal" aria-label="Información legal">
+      <a href="aviso-legal.html">Aviso legal</a>
+      <a href="politica-privacidad.html">Política de privacidad</a>
+      <a href="politica-cookies.html">Política de cookies</a>
+      <button type="button" id="cookiePrefs">Preferencias de cookies</button>
+    </nav>
+    <div class="foot-bottom">
+      <span>© 2026 Tartarachin · Algeciras. Todos los derechos reservados.</span>
+      <span class="lema">Más vale tarta que nunca ✦</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== POPUP ELEGIR SABOR ===== -->
+<div class="sabor-overlay" id="saborOverlay" aria-hidden="true">
+  <div class="sabor-modal" role="dialog" aria-modal="true" aria-labelledby="saborTitle">
+    <div class="sabor-head">
+      <div>
+        <span class="sabor-kicker" id="saborKicker">🍰 Elige tu sabor</span>
+        <h3 id="saborTitle">Tarta entera</h3>
+        <span class="sabor-price" id="saborPrice"></span>
+      </div>
+      <button class="cart-close" id="saborClose" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="sabor-search" id="saborSearch" hidden>
+      <span class="ss-ico" aria-hidden="true">🔍</span>
+      <input type="search" id="saborFilter" placeholder="Buscar sabor…" aria-label="Buscar un sabor" autocomplete="off">
+    </div>
+    <div class="sabor-progress" id="saborProgress" hidden>
+      <div class="sp-top">
+        <span id="spCount">0 de 9 minis</span>
+        <span class="sp-actions">
+          <button type="button" id="spSpread" hidden>Repartir el resto</button>
+          <button type="button" id="spClear" hidden>Vaciar</button>
+        </span>
+      </div>
+      <div class="sp-bar" role="progressbar" aria-labelledby="spCount"><i id="spFill"></i></div>
+      <p class="sp-hint" id="spHint"></p>
+    </div>
+    <div class="sabor-body" id="saborBody"></div>
+    <div class="sabor-foot">
+      <div class="sabor-chosen" id="saborChosen">Toca un sabor para elegirlo 💜</div>
+      <button class="btn btn-lila" id="saborAdd" disabled>Añadir al pedido</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== CARRITO ===== -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" role="dialog" aria-modal="true" aria-label="Tu pedido" aria-hidden="true">
+  <div class="cart-head">
+    <div>
+      <h3>Tu pedido 💜</h3>
+      <span class="cart-sub" id="cartSub">Aún no has añadido nada</span>
+    </div>
+    <button class="cart-close" id="cartClose" aria-label="Cerrar el pedido">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Total orientativo</span><span id="cartTotal">0,00 €</span></div>
+    <a class="btn btn-lila cart-send" id="cartSend" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.9C8.8 2.9 3 8.7 3 15.9c0 2.3.6 4.5 1.7 6.5L3 29.1l6.9-1.8c1.9 1 4 1.6 6.1 1.6 7.2 0 13-5.8 13-13S23.2 2.9 16 2.9zm0 23.7c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.1 1.1-4l-.3-.4c-1.1-1.7-1.6-3.7-1.6-5.7 0-5.9 4.8-10.7 10.7-10.7s10.7 4.8 10.7 10.7-4.8 10.7-10.7 10.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+      Enviar pedido por WhatsApp
+    </a>
+    <button type="button" class="cart-keep" id="cartKeep">← Seguir eligiendo</button>
+    <p class="cart-note">El total es orientativo: te confirmamos precio final, disponibilidad y hora de recogida por WhatsApp.<br>Pago cómodamente en tienda al recoger.</p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"><img id="toastImg" alt="" width="34" height="34" hidden><span id="toastTxt">Añadido al pedido ✓</span></div>
+
+
+<!-- ===== BANNER DE COOKIES ===== -->
+<div class="cookie-bar" id="cookieBar" role="dialog" aria-modal="false" aria-labelledby="cookieTxt">
+  <p id="cookieTxt">Usamos cookies propias necesarias para que la web funcione y, solo si lo aceptas, contenido de Google Maps que puede instalar cookies de terceros. Puedes consultar los detalles en nuestra <a href="politica-cookies.html">política de cookies</a>.</p>
+  <div class="cookie-actions">
+    <button type="button" class="btn btn-outline-light" id="cookieReject">Solo las necesarias</button>
+    <button type="button" class="btn btn-lila" id="cookieAccept">Aceptar todo</button>
+  </div>
+</div>
+
+<!-- ===== WHATSAPP FLOTANTE ===== -->
+<a class="wa-float" href="https://wa.me/34633744584" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 2.9C8.8 2.9 3 8.7 3 15.9c0 2.3.6 4.5 1.7 6.5L3 29.1l6.9-1.8c1.9 1 4 1.6 6.1 1.6 7.2 0 13-5.8 13-13S23.2 2.9 16 2.9zm0 23.7c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.1 1.1-4l-.3-.4c-1.1-1.7-1.6-3.7-1.6-5.7 0-5.9 4.8-10.7 10.7-10.7s10.7 4.8 10.7 10.7-4.8 10.7-10.7 10.7zm5.9-8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.2-.2.2-.3.3-.5.1-.2.1-.4 0-.6-.1-.2-.7-1.8-1-2.4-.3-.6-.5-.5-.7-.6h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.5 4.9.8.3 1.4.5 1.9.7.8.2 1.5.2 2 .1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+// Header scroll + barra de progreso
+const header=document.getElementById('header');
+const prog=document.getElementById('progress');
+addEventListener('scroll',()=>{
+  header.classList.toggle('scrolled',scrollY>40);
+  const h=document.documentElement;
+  prog.style.width=(scrollY/(h.scrollHeight-innerHeight)*100)+'%';
+},{passive:true});
+
+// Stagger de animaciones en rejillas
+document.querySelectorAll('.value-grid,.carta-grid,.pasos-grid,.rev-grid,.shake-row').forEach(g=>{
+  [...g.children].forEach((c,i)=>c.style.transitionDelay=((i%3)*.12)+'s');
+});
+
+// Burger
+const burger=document.getElementById('burger');
+const navLinks=document.getElementById('navLinks');
+burger.addEventListener('click',()=>{
+  const open=navLinks.classList.toggle('open');
+  burger.setAttribute('aria-expanded',open?'true':'false');
+});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');burger.setAttribute('aria-expanded','false')}));
+
+// Tabs carta
+document.querySelectorAll('.tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.carta-panel').forEach(p=>p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('panel-'+tab.dataset.tab).classList.add('active');
+    document.querySelectorAll('#panel-'+tab.dataset.tab+' .reveal').forEach(el=>el.classList.add('in'));
+  });
+});
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.closest('.faq-item'),a=item.querySelector('.faq-a');
+    const open=item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i=>{
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight=null;
+      i.querySelector('.faq-q').setAttribute('aria-expanded','false');
+    });
+    if(!open){
+      item.classList.add('open');
+      a.style.maxHeight=a.scrollHeight+'px';
+      q.setAttribute('aria-expanded','true');
+    }
+  });
+});
+
+// Reveal on scroll
+const io=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+// ===== Sabores (fuente única) =====
+const SABORES_CLASICOS=['Red Velvet','Ferrero','Kinder Bueno','Kinder Bueno Blanco','Pistacho','Lotus','Oreo','Dulce de leche','Filipinos Blanco','Natillas','Milkybar','Happy Hippo','Tocino de cielo','Fruta del bosque','Dinosaurus Blanco','Nestlé Fresa','Limón dulce','Schokobons','Pantera Rosa','M&M','Tarta de la abuela','Nutella con avellanas','Lila','Banoffee',"Reese's"];
+const SABORES_MERMELADA=['Filipinos de fresa con chocolate blanco','Oreo bañado en chocolate blanco','Mermelada de higo con chocolate blanco','Mermelada de fresa con fresas naturales','Mermelada de fresa con chocolate blanco','Mermelada de mango con chocolate blanco'];
+const SABORES_ESPECIALES=['Gofre Nutella o chocolate blanco','Dubái chocolate o chocolate blanco','Parmesano, piñones y miel'];
+const SABORES_RELLENITAS=['Kinder','Kinder Bueno Blanco','Oreo','Pistacho','Red Velvet','Happy Hippo','Lotus','Milkybar'];
+const SABORES_TODOS=[...SABORES_CLASICOS,...SABORES_MERMELADA,...SABORES_ESPECIALES];
+
+// Nubes de chips
+document.querySelectorAll('.flavor-cloud').forEach(c=>{
+  const map={clasicos:SABORES_CLASICOS,mermeladas:SABORES_MERMELADA,especiales:SABORES_ESPECIALES};
+  c.innerHTML=(map[c.dataset.cloud]||[]).map(s=>'<span class="chip">'+s+'</span>').join('');
+});
+
+// ===== Carrito =====
+const cart={};
+const cartDrawer=document.getElementById('cartDrawer');
+const cartOverlay=document.getElementById('cartOverlay');
+const cartItems=document.getElementById('cartItems');
+const cartTotal=document.getElementById('cartTotal');
+const cartCount=document.getElementById('cartCount');
+const cartSub=document.getElementById('cartSub');
+const cartSend=document.getElementById('cartSend');
+const toast=document.getElementById('toast');
+let toastTimer;
+
+const fmt=n=>n.toFixed(2).replace('.',',')+' €';
+// --- gestión de foco para diálogos (carrito y popup de sabores) ---
+const FOCUSABLE='a[href],button:not([disabled]),input,select,textarea,[tabindex]:not([tabindex="-1"])';
+let lastFocused=null;
+function trapFocus(box,e){
+  if(e.key!=='Tab')return;
+  const f=[...box.querySelectorAll(FOCUSABLE)].filter(el=>el.offsetParent!==null);
+  if(!f.length)return;
+  const first=f[0],last=f[f.length-1];
+  if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+  else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+}
+const openCart=()=>{
+  lastFocused=document.activeElement;
+  cartDrawer.classList.add('open');cartOverlay.classList.add('open');
+  cartDrawer.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  (cartDrawer.querySelector(FOCUSABLE)||cartDrawer).focus();
+};
+const closeCart=()=>{
+  cartDrawer.classList.remove('open');cartOverlay.classList.remove('open');
+  cartDrawer.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+  if(lastFocused)lastFocused.focus();
+};
+cartDrawer.addEventListener('keydown',e=>trapFocus(cartDrawer,e));
+document.getElementById('cartBtn').addEventListener('click',openCart);
+document.getElementById('cartClose').addEventListener('click',closeCart);
+cartOverlay.addEventListener('click',closeCart);
+
+function showToast(msg,img){
+  document.getElementById('toastTxt').textContent=msg;
+  const ti=document.getElementById('toastImg');
+  if(img){ti.src=img;ti.hidden=false}else{ti.hidden=true}
+  toast.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2200);
+}
+// base = nombre del producto · variant = sabores elegidos · img = miniatura
+function addItem(base,price,img,variant){
+  const key=variant?base+' · '+variant:base;
+  if(!cart[key])cart[key]={base,variant:variant||'',price,img:img||'',qty:0};
+  cart[key].qty++;
+  renderCart(key);
+  cartCount.classList.remove('bump');void cartCount.offsetWidth;cartCount.classList.add('bump');
+  showToast(base+' añadido ✓',img);
+}
+function changeQty(key,d){
+  if(!cart[key])return;
+  cart[key].qty+=d;
+  if(cart[key].qty<=0)delete cart[key];
+  renderCart();
+}
+function removeItem(key){
+  if(!cart[key])return;
+  const nombre=cart[key].base;
+  delete cart[key];
+  renderCart();
+  showToast(nombre+' quitado del pedido');
+}
+function renderCart(nuevo){
+  const keys=Object.keys(cart);
+  let count=0,total=0;
+  keys.forEach(k=>{count+=cart[k].qty;total+=cart[k].qty*cart[k].price});
+  cartCount.textContent=count;
+  cartCount.classList.toggle('show',count>0);
+  cartTotal.textContent=fmt(total);
+  cartSub.textContent=count?count+(count===1?' artículo':' artículos')+' · recogida en tienda':'Aún no has añadido nada';
+  if(!keys.length){
+    cartItems.innerHTML='<div class="cart-empty">'+
+      '<img class="ce-ico" src="img/porcion-carrito.webp" alt="" width="320" height="289" loading="lazy" decoding="async">'+
+      '<b>Tu pedido está vacío</b>'+
+      '<p>Elige tu tarta, tu vasito o tu Tartarashake y te lo preparamos para recoger.</p>'+
+      '<button type="button" class="btn btn-lila" id="cartGo">Ver la carta 🍰</button>'+
+      '</div>';
+    cartSend.classList.add('disabled');cartSend.href='#';
+    return;
+  }
+  cartSend.classList.remove('disabled');
+  cartItems.innerHTML=keys.map(k=>{
+    const it=cart[k],kk=k.replace(/"/g,'&quot;');
+    return '<article class="cart-item'+(k===nuevo?' just-added':'')+'">'+
+      (it.img?'<img class="ci-img" src="'+it.img+'" alt="" width="120" height="120" loading="lazy" decoding="async">'
+             :'<span class="ci-img ci-img-ph" aria-hidden="true">🍰</span>')+
+      '<div class="ci-info">'+
+        '<b>'+it.base+'</b>'+
+        (it.variant?'<small class="ci-var">'+it.variant+'</small>':'')+
+        '<small class="ci-unit">'+fmt(it.price)+' / ud</small>'+
+      '</div>'+
+      '<div class="ci-side">'+
+        '<button class="ci-del" data-del="'+kk+'" aria-label="Quitar '+kk+' del pedido" title="Quitar del pedido">'+
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6l1 2h4v2H4V5h4l1-2zM6 9h12l-1 12H7L6 9z"/></svg>'+
+        '</button>'+
+        '<div class="qty">'+
+          '<button data-qn="'+kk+'" data-d="-1" aria-label="Quitar una unidad de '+kk+'">−</button>'+
+          '<span>'+it.qty+'</span>'+
+          '<button data-qn="'+kk+'" data-d="1" aria-label="Añadir una unidad de '+kk+'">+</button>'+
+        '</div>'+
+        '<span class="ci-total">'+fmt(it.price*it.qty)+'</span>'+
+      '</div>'+
+    '</article>';
+  }).join('');
+  // El mensaje de WhatsApp NO lleva precios: el cliente puede editar el texto
+  // antes de enviarlo (es una limitación de WhatsApp, no del código), así que
+  // sólo viajan los productos y las cantidades. El precio lo pone la tienda al
+  // responder. Si algún día quieres los importes dentro del mensaje, añade
+  // +' — '+fmt(cart[k].qty*cart[k].price) al final de la línea del forEach.
+  let msg='¡Hola Tartarachin! 💜 Quiero hacer este pedido para recoger en tienda:\n';
+  keys.forEach(k=>{msg+='\n• '+cart[k].qty+' × '+k});
+  msg+='\n\n¿Me confirmáis el precio y cuándo puedo recogerlo? ¡Gracias!';
+  cartSend.href='https://wa.me/34633744584?text='+encodeURIComponent(msg);
+}
+cartItems.addEventListener('click',e=>{
+  const del=e.target.closest('button[data-del]');
+  if(del){removeItem(del.dataset.del);return}
+  const b=e.target.closest('button[data-qn]');
+  if(b){changeQty(b.dataset.qn,parseInt(b.dataset.d));return}
+  if(e.target.closest('#cartGo')){
+    closeCart();
+    document.getElementById('carta').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+});
+document.getElementById('cartKeep').addEventListener('click',closeCart);
+// Botones "añadir" explícitos (shakes)
+document.querySelectorAll('.add-btn[data-item]').forEach(b=>{
+  const img=b.closest('.shake')?.querySelector('img')?.getAttribute('src')||'';
+  b.addEventListener('click',()=>addItem(b.dataset.item,parseFloat(b.dataset.price),img));
+});
+// ===== Popup elegir sabor =====
+const saborOverlay=document.getElementById('saborOverlay');
+const saborTitle=document.getElementById('saborTitle');
+const saborPrice=document.getElementById('saborPrice');
+const saborBody=document.getElementById('saborBody');
+const saborChosen=document.getElementById('saborChosen');
+const saborAdd=document.getElementById('saborAdd');
+let saborCtx=null,saborSels=[],saborMax=1,saborUnits=0,saborDistinct=0,saborQty={};
+const saborProgress=document.getElementById('saborProgress');
+const spCount=document.getElementById('spCount');
+const spFill=document.getElementById('spFill');
+const spHint=document.getElementById('spHint');
+const spClear=document.getElementById('spClear');
+const spSpread=document.getElementById('spSpread');
+const saborSearch=document.getElementById('saborSearch');
+const saborFilter=document.getElementById('saborFilter');
+const quitaAcentos=t=>t.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const escAttr=t=>t.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
+const miniTotal=()=>Object.values(saborQty).reduce((a,b)=>a+b,0);
+const miniNames=()=>Object.keys(saborQty).filter(k=>saborQty[k]>0);
+
+function openSaborModal(name,price,key,max,units,distinct,img){
+  saborCtx={name,price,img:img||''};saborSels=[];saborQty={};
+  saborMax=max||1;saborUnits=units||0;saborDistinct=distinct||0;
+  saborTitle.textContent=name;
+  saborPrice.textContent=fmt(price);
+  document.getElementById('saborKicker').textContent=
+    saborUnits?'🍰 Monta tu caja de '+saborUnits
+    :(saborMax>1?'🍰 Elige 1 o 2 sabores (mitad y mitad)':'🍰 Elige tu sabor');
+  saborProgress.hidden=!saborUnits;
+  if(saborUnits)spHint.textContent='Elige hasta '+saborDistinct+' sabores y reparte las '+saborUnits+' minis. Puedes repetir el que más te guste.';
+  const groups=key==='rellenitas'
+    ?[['Disponible en estos 8 sabores',SABORES_RELLENITAS]]
+    :[['Los de siempre',SABORES_CLASICOS],['Con mermelada y chocolate blanco',SABORES_MERMELADA],['Especiales · según disponibilidad',SABORES_ESPECIALES]];
+  saborBody.innerHTML=groups.map(g=>
+    '<h4 class="sabor-group-title">'+g[0]+'</h4>'+(saborUnits
+      ?'<div class="mini-list">'+g[1].map(f=>
+         '<div class="mini-opt" data-s="'+escAttr(f)+'">'+
+           '<span class="mo-name">'+f+'</span>'+
+           '<span class="mo-qty">'+
+             '<button type="button" class="mo-btn" data-d="-1" aria-label="Quitar una unidad de '+escAttr(f)+'">−</button>'+
+             '<span class="mo-n">0</span>'+
+             '<button type="button" class="mo-btn" data-d="1" aria-label="Añadir una unidad de '+escAttr(f)+'">+</button>'+
+           '</span>'+
+         '</div>').join('')+'</div>'
+      :'<div class="sabor-grid">'+g[1].map(f=>'<button type="button" class="sabor-opt">'+f+'</button>').join('')+'</div>')
+  ).join('');
+  const totalOpciones=groups.reduce((a,g)=>a+g[1].length,0);
+  saborSearch.hidden=totalOpciones<12;
+  saborFilter.value='';
+  filtrarSabores();
+  saborBody.scrollTop=0;
+  updateSaborFoot();
+  lastFocused=document.activeElement;
+  saborOverlay.classList.add('open');
+  saborOverlay.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  document.getElementById('saborClose').focus();
+}
+function renderMinis(){
+  const total=miniTotal(),names=miniNames();
+  saborBody.querySelectorAll('.mini-opt').forEach(el=>{
+    const f=el.dataset.s,n=saborQty[f]||0;
+    el.querySelector('.mo-n').textContent=n;
+    el.classList.toggle('sel',n>0);
+    const btns=el.querySelectorAll('.mo-btn');
+    btns[0].disabled=n===0;
+    btns[1].disabled=total>=saborUnits||(n===0&&names.length>=saborDistinct);
+  });
+  spCount.textContent=total+' de '+saborUnits+' minis · '+names.length+' de '+saborDistinct+' sabores';
+  spFill.style.width=(total/saborUnits*100)+'%';
+  spClear.hidden=total===0;
+  spSpread.hidden=!(names.length&&total<saborUnits);
+}
+function updateSaborFoot(){
+  if(saborUnits){
+    const total=miniTotal(),names=miniNames(),falta=saborUnits-total;
+    saborChosen.innerHTML=total
+      ?'Tu caja: <b>'+names.map(f=>saborQty[f]+' × '+f).join(' · ')+'</b>'
+      :'Toca los sabores que quieras meter en la caja 💜';
+    saborAdd.disabled=falta!==0;
+    saborAdd.textContent=falta>0?'Te '+(falta===1?'falta 1 mini':'faltan '+falta+' minis'):'Añadir al pedido · '+fmt(saborCtx.price);
+    renderMinis();
+    return;
+  }
+  if(!saborSels.length){
+    saborChosen.innerHTML=saborMax>1?'Toca 1 o 2 sabores 💜':'Toca un sabor para elegirlo 💜';
+    saborAdd.disabled=true;
+    saborAdd.textContent='Añadir al pedido';
+    return;
+  }
+  saborChosen.innerHTML='Tu elección: <b>'+saborSels.join(' + ')+'</b>'+(saborSels.length===2?' <small>(mitad y mitad)</small>':'');
+  saborAdd.disabled=false;
+  saborAdd.textContent='Añadir al pedido · '+fmt(saborCtx.price);
+}
+function closeSaborModal(){
+  if(!saborOverlay.classList.contains('open'))return;
+  saborOverlay.classList.remove('open');
+  saborOverlay.setAttribute('aria-hidden','true');
+  document.body.style.overflow='';
+  if(lastFocused)lastFocused.focus();
+}
+saborOverlay.addEventListener('keydown',e=>trapFocus(saborOverlay,e));
+document.getElementById('saborClose').addEventListener('click',closeSaborModal);
+saborOverlay.addEventListener('click',e=>{if(e.target===saborOverlay)closeSaborModal()});
+addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  if(saborOverlay.classList.contains('open')){closeSaborModal();return}
+  if(cartDrawer.classList.contains('open')){closeCart();return}
+  if(navLinks.classList.contains('open')){navLinks.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.focus()}
+});
+saborBody.addEventListener('click',e=>{
+  // --- modo "monta tu caja" (minicheesecakes) ---
+  if(saborUnits){
+    const row=e.target.closest('.mini-opt');
+    if(!row)return;
+    const f=row.dataset.s;
+    const btn=e.target.closest('.mo-btn');
+    const d=btn?parseInt(btn.dataset.d):1;   // tocar el nombre suma una unidad
+    if(d>0){
+      if(miniTotal()>=saborUnits){showToast('Tu caja ya tiene '+saborUnits+' minis');return}
+      if(!saborQty[f]&&miniNames().length>=saborDistinct){showToast('Máximo '+saborDistinct+' sabores por caja — quita uno para cambiarlo');return}
+    }
+    const n=(saborQty[f]||0)+d;
+    if(n<0)return;
+    if(n===0)delete saborQty[f];else saborQty[f]=n;
+    updateSaborFoot();
+    return;
+  }
+  // --- modo sabor único / mitad y mitad ---
+  const opt=e.target.closest('.sabor-opt');
+  if(!opt)return;
+  const f=opt.textContent;
+  if(opt.classList.contains('sel')){
+    opt.classList.remove('sel');
+    saborSels=saborSels.filter(x=>x!==f);
+  }else if(saborMax===1){
+    saborBody.querySelectorAll('.sabor-opt.sel').forEach(o=>o.classList.remove('sel'));
+    opt.classList.add('sel');
+    saborSels=[f];
+  }else if(saborSels.length<saborMax){
+    opt.classList.add('sel');
+    saborSels.push(f);
+  }else{
+    showToast('Máximo '+saborMax+' sabores — quita uno para cambiar');
+    return;
+  }
+  updateSaborFoot();
+});
+function filtrarSabores(){
+  const q=quitaAcentos(saborFilter.value.trim());
+  let visibles=0;
+  saborBody.querySelectorAll('.mini-opt,.sabor-opt').forEach(el=>{
+    const txt=quitaAcentos(el.dataset.s||el.textContent);
+    const ok=!q||txt.includes(q);
+    el.style.display=ok?'':'none';
+    if(ok)visibles++;
+  });
+  // ocultar los títulos de grupo que se queden sin sabores
+  saborBody.querySelectorAll('.sabor-group-title').forEach(t=>{
+    const cont=t.nextElementSibling;
+    const hay=cont&&[...cont.children].some(c=>c.style.display!=='none');
+    t.style.display=hay?'':'none';
+    if(cont)cont.style.display=hay?'':'none';
+  });
+  let vacio=saborBody.querySelector('.sabor-empty');
+  if(!visibles){
+    if(!vacio){vacio=document.createElement('p');vacio.className='sabor-empty';saborBody.appendChild(vacio)}
+    vacio.textContent='No encontramos «'+saborFilter.value.trim()+'». Prueba con otro nombre.';
+    vacio.style.display='';
+  }else if(vacio)vacio.style.display='none';
+}
+saborFilter.addEventListener('input',filtrarSabores);
+spClear.addEventListener('click',()=>{saborQty={};updateSaborFoot()});
+spSpread.addEventListener('click',()=>{
+  const names=miniNames();if(!names.length)return;
+  let resto=saborUnits-miniTotal(),i=0;
+  while(resto>0){saborQty[names[i%names.length]]++;resto--;i++}
+  updateSaborFoot();
+});
+saborAdd.addEventListener('click',()=>{
+  if(!saborCtx)return;
+  if(saborUnits){
+    if(miniTotal()!==saborUnits)return;
+    addItem(saborCtx.name,saborCtx.price,saborCtx.img,miniNames().map(f=>saborQty[f]+'× '+f).join(' + '));
+  }else{
+    if(!saborSels.length)return;
+    addItem(saborCtx.name,saborCtx.price,saborCtx.img,saborSels.join(' + '));
+  }
+  closeSaborModal();
+});
+
+// Botones automáticos en la carta: "Elegir sabor" si la tarjeta tiene sabores, "Añadir" si no
+document.querySelectorAll('.dish').forEach(d=>{
+  const name=d.querySelector('h3')?.textContent.trim();
+  const priceEl=d.querySelector('.price');
+  if(!name||!priceEl)return;
+  const price=parseFloat(priceEl.textContent.replace('€','').trim().replace(',','.'));
+  const flavors=d.dataset.flavors;
+  const units=parseInt(d.dataset.units||'0');
+  const btn=document.createElement('button');
+  btn.className='add-btn';
+  btn.textContent=units?'Montar mi caja 🍰':(flavors?'Elegir sabor 🍰':'Añadir al pedido');
+  const img=d.querySelector('img')?.getAttribute('src')||'';
+  btn.addEventListener('click',()=>{
+    if(flavors)openSaborModal(name,price,flavors,parseInt(d.dataset.max||'1'),units,parseInt(d.dataset.distinct||'0'),img);
+    else addItem(name,price,img);
+  });
+  d.querySelector('.dish-body').appendChild(btn);
+});
+renderCart();
+
+// Hoy en horario
+const d=new Date().getDay();
+const rows=document.querySelectorAll('.hours tr');
+if(rows.length===3){
+  if(d===1)rows[0].classList.add('today');
+  else if(d===0)rows[2].classList.add('today');
+  else rows[1].classList.add('today');
+}
+
+// ===== Consentimiento de cookies y carga diferida del mapa =====
+(function(){
+  const KEY='tartarachin-cookies';
+  const bar=document.getElementById('cookieBar');
+  const wrap=document.getElementById('mapaWrap');
+  const consent=document.getElementById('mapaConsent');
+  const MAP_SRC='https://www.google.com/maps?q=36.13798045,-5.45263980&z=17&output=embed';
+
+  function loadMap(){
+    if(!wrap||wrap.querySelector('iframe'))return;
+    const f=document.createElement('iframe');
+    f.title='Mapa de la tienda Tartarachin en Algeciras';
+    f.loading='lazy';
+    f.referrerPolicy='no-referrer-when-downgrade';
+    f.src=MAP_SRC;
+    if(consent)consent.remove();
+    wrap.appendChild(f);
+  }
+  function save(v){try{localStorage.setItem(KEY,v)}catch(e){}}
+  function read(){try{return localStorage.getItem(KEY)}catch(e){return null}}
+  function hide(){bar.classList.remove('show')}
+  function show(){bar.classList.add('show')}
+
+  const choice=read();
+  if(choice==='all')loadMap();
+  else if(choice!=='necessary')show();
+
+  document.getElementById('cookieAccept').addEventListener('click',()=>{save('all');hide();loadMap()});
+  document.getElementById('cookieReject').addEventListener('click',()=>{save('necessary');hide()});
+  document.getElementById('cookiePrefs').addEventListener('click',()=>{show();bar.scrollIntoView({block:'nearest'})});
+  // Carga puntual del mapa sin aceptar el resto de cookies
+  const btn=document.getElementById('mapaLoad');
+  if(btn)btn.addEventListener('click',loadMap);
+})();
+</script>
+</body>
+</html>
