@@ -1,3 +1,0 @@
-# Copia de prueba en GitHub Pages: no debe indexarse.
-User-agent: *
-Disallow: /
